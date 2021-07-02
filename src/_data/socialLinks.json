@@ -1,14 +1,14 @@
-[
-  {
-    "label": "Twitter",
-    "link": "https://twitter.com/gsin11"
+{
+  "instagram": {
+    "label": "Instagram",
+    "link": "https://www.instagram.com/fitmannyuk/"
   },
-  {
-    "label": "Linkedin",
-    "link": "https://www.linkedin.com/in/gsin11/"
+  "youtube": {
+    "label": "Youtube",
+    "link": "https://youtube.com/channel/UCz0W4H5qreJeSu-IAiYRj_Q"
   },
-  {
-    "label": "GitHub",
-    "link": "https://github.com/gsin11"
+  "facebook": {
+    "label": "Facebook",
+    "link": "https://facebook.com/"
   }
-]
+}

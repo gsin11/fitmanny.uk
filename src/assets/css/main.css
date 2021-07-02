@@ -771,6 +771,10 @@ h5 {
 .web-navbar.active {
   background-color: #000;
 }
+.web-navbar > .row {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 .web-navbar.active .web-menu-action,
 .web-navbar.active .web-brand {
   align-items: center;
