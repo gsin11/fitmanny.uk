@@ -1,0 +1,22 @@
+{
+  "name": "fitmanny.uk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "Gurpreet Singh <gurupreetsingh2000@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.9.0"
+  },
+  "devDependencies": {
+    "clean-css": "^5.1.2",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.7.0"
+  }
+}

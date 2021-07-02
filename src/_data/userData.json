@@ -1,0 +1,29 @@
+{
+  "siteName": "Gurpreet Singh",
+  "subtitle": "Each space has its story",
+  "websiteUrl": "https://gsin.in",
+  "twitter": "gsin11",
+  "linkedin": "gsin11",
+  "github": "gsin11",
+  "email": "gurupreetsingh2000@gmail.com",
+  "googleSiteVerificationCode": "xejEbN0SW3h_El6KLaPjB9JR1Xzuy3pahey27zavIIg",
+  "editFilePath": "https://github.com/gsin11/gsin11.github.io/blob/master/",
+  "projects": [
+    {
+      "label": "Github Jobs",
+      "link": "https://github-jobs-peach.vercel.app/"
+    },
+    {
+      "label": "ReactJS TailwindCSS Components",
+      "link": "https://reactjs-tailwindcss.vercel.app/"
+    },
+    {
+      "label": "EGGCELLENT",
+      "link": "https://gs-strapi-fe.vercel.app/"
+    },
+    {
+      "label": "THE PLANET",
+      "link": "https://the-planet.vercel.app/"
+    }
+  ]
+}
