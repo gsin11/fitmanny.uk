@@ -13,8 +13,6 @@
     {{ css | cssmin | safe }}
   </style>
 
-
-
   <link href="{{ '/assets/css/bootstrap.min.css' | url }}" rel="stylesheet" type="text/css">
   <link href="{{ '/assets/css/font-awesome.min.css' | url }}" rel="stylesheet" type="text/css">
   <link href="{{ '/assets/css/owl.carousel.min.css' | url }}" rel="stylesheet" type="text/css">
@@ -67,10 +65,7 @@
   <!-- .loader -->
   {% include "partials/_loader.html" %}
   <!-- /.loader -->
-
-  <!-- header -->
-  {% include 'partials/_header.html' %}
-  <!-- // header -->
+  {% include "partials/_inner-header.html" %}
   <main>
     {{ content | safe }}
   </main>

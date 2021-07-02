@@ -1,0 +1,51 @@
+<!-- Banner Overlay Content -->
+<div class="banner-content-elements">
+  <!-- title & breadcrumb links -->
+  <div class="container content-scoll-wrapper">
+
+    <div class="banner-content-holder">
+      <div class="banner-title">
+        <h1 class="text-uppercase">
+          <p class="m-0 text-uppercase">
+            <a href="/" class="text-white">HOME</a>
+            <span>|</span>
+            <a href="javascript:void(0)" class="text-white">
+              {% if page.url === '/contact.html' %}CONTACT ME{% endif %}
+              {% if page.url === '/about.html' %}ABOUT ME{% endif %}
+            </a>
+          </p>
+          {% if page.url === '/contact.html' %}CONTACT <span class="text-pink">ME</span>{% endif %}
+          {% if page.url === '/about.html' %}ABOUT <span class="text-pink">ME</span>{% endif %}
+        </h1>
+      </div>
+    </div>
+
+    <div class="banner-scroll-holder"></div>
+  </div>
+  <!-- social options -->
+  <div class="banner-social-holder">
+    <ul class="social-opts">
+      <li class="text-uppercase list-label">Share</li>
+      <li class="dash"></li>
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fab fa-facebook-f"></i>
+          <div class="tooltip-info text-uppercase">Facebook</div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fab fa-twitter"></i>
+          <div class="tooltip-info text-uppercase">Twitter</div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fab fa-instagram"></i>
+          <div class="tooltip-info text-uppercase">Instagram</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- // Banner Overlay Content -->

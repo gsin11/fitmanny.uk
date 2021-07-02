@@ -1,5 +1,5 @@
 ---
-title: Gurpreet Singh - Welcome
+title: FitManny - Welcome
 layout: base
 ---
 

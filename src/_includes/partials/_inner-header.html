@@ -1,0 +1,49 @@
+<!-- Header -->
+<header>
+
+  <!-- nevigation bar -->
+  <nav class="fixed-top web-navbar">
+    <div class="row">
+
+      <!-- web menu action -->
+      <div class="col-md-4 col-sm-3 col-3 d-flex justify-content-start web-menu-action">
+        <button class="btn btn-outline-primary btn-overlay-menu" id="overlayMenuAction">
+          <img src="../assets/img/menu.svg" alt="FF Fit" class="mw-100">
+        </button>
+      </div>
+
+      <!-- web brand -->
+      <div class="col-md-4 col-sm-4 col-6 text-center d-flex justify-content-center web-brand">
+        <a href="index.html"><img src="../assets/img/logo.png" alt="FF Fit" class="mw-100"></a>
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- sidebar -->
+  {% include "partials/_sidebar.html" %}
+  <!-- // sidebar -->
+
+  <!-- banner -->
+  <section class="inner-banner">
+
+    <!-- Banner Carousel [Swiper] -->
+    <div class="swiper-container inner-banner-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../assets/img/banner-7.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="../assets/img/banner-5.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="../assets/img/banner-7.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="../assets/img/banner-5.jpg" alt="FF Fit" class="mw-100"></div>
+      </div>
+    </div>
+    <!-- // Banner Carousel [Swiper] -->
+
+    <!-- sidebar -->
+    {% include "partials/_banner-overlay.html" %}
+    <!-- // sidebar -->
+
+  </section>
+
+</header>
+<!-- /.Header -->
