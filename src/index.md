@@ -29,7 +29,6 @@ layout: base
             <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
               Ipsum.</p>
-            <img src="./assets/img/signature.png" alt="FF Fit" class="mb-2"><br>
             <a href="javascript:void(0)" class="btn-style-1 my-3 text-uppercase">Read More</a>
           </div>
         </div>
@@ -150,7 +149,6 @@ layout: base
             <h1>You are the client Real results</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit do eius mod tempor incididunt ut labore et
               dolore magna aliqua. </p>
-            <img src="./assets/img/signature.png" alt="FF Fit" class="mw-100">
           </div>
         </div>
       </div>

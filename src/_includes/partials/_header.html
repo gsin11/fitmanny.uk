@@ -12,25 +12,8 @@
   <section class="banner">
 
     <!-- Banner Carousel [Swiper] -->
-    <div class="swiper-container banner-swiper">
-      <!-- carousel items/slides -->
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./assets/img/banner-1.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide"><img src="./assets/img/banner-2.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide"><img src="./assets/img/banner-1.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide"><img src="./assets/img/banner-2.jpg" alt="FF Fit" class="mw-100"></div>
-      </div>
-      <!-- arrows/pagination -->
-      <div class="d-flex align-items-center justify-content-center">
-        <a href="javascript:void(0)" id="banner-prev"><img src="./assets/img/prev-arrow.svg" alt="FF Fit" width="50"
-            class="mw-100"></a>
-        <span class="current-slide-count">1</span>
-        <a href="javascript:void(0)" id="banner-nxt"><img src="./assets/img/nxt-arrow.svg" alt="FF Fit" width="50"
-            class="mw-100"></a>
-      </div>
-    </div>
+    {% include "partials/_primary-carousel.html" %}
     <!-- // Banner Carousel [Swiper] -->
-
 
     <!-- Banner Overlay Content -->
     <div class="banner-content-elements">
@@ -40,7 +23,7 @@
           <!-- title text -->
           <div class="banner-title">
             <h1 class="text-uppercase">
-              <p class="m-0">AUSTRALIA'S FIRST CHAIN OF LUXE PERSONAL TRAINING STUDIOS</p>
+              <p class="m-0">UK'S PERSONAL TRAINING STUDIO</p>
               WELCOME TO THE <br>WORLD <span class="text-pink">OF</span> RESULTS
             </h1>
           </div>
@@ -70,7 +53,7 @@
                 </svg>
               </a>
             </div>
-            <div class="banner-pagination">03</div>
+            <div class="banner-pagination">01</div>
             <div class="banner-right-nav" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
               <a href="javascript:void(0)">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -92,11 +75,11 @@
           </div>
           <!-- carousel progress indicator -->
           <div class="banner-swiper-progress">
-            <div class="banner-current-count">03</div>
+            <div class="banner-current-count">01</div>
             <div class="banner-progress-indicator">
               <div class="banner-progress" id="progress" style="width: 100%;"></div>
             </div>
-            <div class="banner-total-count">04</div>
+            <div class="banner-total-count">02</div>
           </div>
         </div>
 
