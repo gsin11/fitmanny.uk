@@ -193,7 +193,7 @@ permalink: /contact.html
           <div class="col-md-8">
             <div class="talk-expert-info">
               <span class="text-uppercase">Talk to an expert</span>
-              <p class="mb-0">Our team creates smart strategies and tactical marketing plans for top-line revenue growth and bottom line profitability. We will help you for your dream to come true.</p>
+              <p class="mb-0">Our team creates smart strategies and tactical marketing plans for top-line revenue growth and bottom line profitability. I will help you for your dream to come true.</p>
               <a href="javascript:void(0)" class="btn-get-started btn-style-5">Get Started <img src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="ml-2"></a>
             </div>
           </div>

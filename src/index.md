@@ -67,7 +67,7 @@ layout: base
             <div class="our-offers-info pt-5 px-3">
               <h1>
                 <span class="text-uppercase">INTRODUCE</span>
-                All Our Offers
+                All Offers
               </h1>
               <div class="offer-list">
                 <div class="offer">
@@ -85,7 +85,7 @@ layout: base
                   </div>
                   <div class="offer-details">
                     <h3>Body Building</h3>
-                    <p>or randomised words which don't look even slightly believable.</p>
+                    <p>or randomized words which don't look even slightly believable.</p>
                   </div>
                 </div>
                 <div class="offer">
@@ -132,7 +132,7 @@ layout: base
                 <div class="result-weight">
                   <div class="result-weight-in">
                     <span>Weight</span>
-                    <h1>- 27 kg</h1>
+                    <h1>- 10 kg</h1>
                   </div>
                 </div>
                 <div class="result-fat">
@@ -158,7 +158,7 @@ layout: base
         <div class="col-md-12">
           <div class="title-style-2 text-center pt-5 mt-md-5 mt-sm-0">
             <h1><b>TRAINING PROGRAMS</b></h1>
-            <p class="mt-3">Let us take your workout routines to the next level with our full-body programs and
+            <p class="mt-3">Let me take your workout routines to the next level with my full-body programs and
               intensity challenges. Find a training that matches your needs.</p>
           </div>
         </div>
@@ -365,14 +365,14 @@ layout: base
       <div class="row">
         <div class="col-6">
           <div class="follow-link-1">
-            <h4 class="text-uppercase">FOLLOW US</h4>
-            <a class="text-uppercase">@FIT-MANNYAUS</a>
+            <h4 class="text-uppercase">FOLLOW ME</h4>
+            <a class="text-uppercase" href="https://www.instagram.com/fitmannyuk/">@FITMANNYUK</a>
           </div>
         </div>
         <div class="col-6">
           <div class="follow-link-2">
-            <h4 class="text-uppercase">FIT-MANNY IN THE SPOTLIGHT</h4>
-            <a class="text-uppercase">#FIT-MANNYARMY</a>
+            <h4 class="text-uppercase">FITMANNY IN THE SPOTLIGHT</h4>
+            <a class="text-uppercase" href="https://www.instagram.com/explore/tags/fitmannyuk/">#FITMANNYUK</a>
           </div>
         </div>
         <div class="col col-12">
