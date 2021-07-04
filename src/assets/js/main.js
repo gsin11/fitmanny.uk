@@ -23,14 +23,14 @@ $(window).bind("load scroll", function () {
   }
 });
 $("#overlayMenuAction").click(function () {
-  $("#FF-FITMenu").addClass("active");
+  $("#FIT-MANNYMenu").addClass("active");
   $("body").addClass("menu-active");
 });
-$("#FF-FITMenuClose").click(function () {
-  $("#FF-FITMenu").removeClass("active");
+$("#FIT-MANNYMenuClose").click(function () {
+  $("#FIT-MANNYMenu").removeClass("active");
   $("body").removeClass("menu-active");
 });
-const $menu = $("#FF-FITMenu");
+const $menu = $("#FIT-MANNYMenu");
 $(document).mouseup((e) => {
   if (!$menu.is(e.target) && $menu.has(e.target).length === 0) {
     $menu.removeClass("active");

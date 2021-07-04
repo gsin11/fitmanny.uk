@@ -8,7 +8,7 @@ permalink: /contact.html
 <main role="main" class="content-area contact-page">
 
   <!-- contact information section -->
-  <secion class="contact-info weight-lifing-outline-bg pt-4 pb-sm-5">
+  <section class="contact-info weight-lifing-outline-bg pt-4 pb-sm-5">
     <div class="container">
       <div class="row pb-sm-4 pt-sm-0 pt-5">
         <div class="col-md-12">
@@ -60,7 +60,7 @@ permalink: /contact.html
         </div>
       </div>
     </div>
-  </secion>
+  </section>
 
   <!--contact form section-->
   <section class="contact-form triangle-line-bg-left">

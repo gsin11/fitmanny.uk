@@ -172,7 +172,7 @@
     font-size: 85px;
     line-height: 85px;
   }
-  .FF-FIT-menu .FF-FIT-menu-content .social-copyright a {
+  .FIT-MANNY-menu .FIT-MANNY-menu-content .social-copyright a {
     padding: 10px 12px 10px 0px;
   }
   /*about us section*/
@@ -484,7 +484,7 @@
   }
   /*--Nav Bar--*/
   /* .link-joining-program { padding: 36px 35px; } */
-  .FF-FIT-menu .FF-FIT-menu-content .language-section a {
+  .FIT-MANNY-menu .FIT-MANNY-menu-content .language-section a {
     margin: 10px 10px 10px 0px;
   }
   /*banner section*/
@@ -516,12 +516,12 @@
     margin-left: 0px;
     height: 40px;
   }
-  /*FF-FIT menu*/
-  .FF-FIT-menu .FF-FIT-menu-content .social-copyright a {
+  /*FIT-MANNY menu*/
+  .FIT-MANNY-menu .FIT-MANNY-menu-content .social-copyright a {
     padding: 10px 8px 10px 0px;
     font-size: 24px;
   }
-  .FF-FIT-menu .FF-FIT-menu-content p.copyright-text {
+  .FIT-MANNY-menu .FIT-MANNY-menu-content p.copyright-text {
     font-size: 18px;
   }
   /*offers section*/
@@ -1032,7 +1032,7 @@
   .link-joining-program {
     padding: 36px 30px;
   }
-  .FF-FIT-menu {
+  .FIT-MANNY-menu {
     width: 75%;
   }
   /*banner section*/
@@ -1502,8 +1502,8 @@
 
 @media only screen and (max-width: 575px) {
   /*==HOMEPAGE==*/
-  .FF-FIT-form-theme1 input,
-  .FF-FIT-form-theme1 select {
+  .FIT-MANNY-form-theme1 input,
+  .FIT-MANNY-form-theme1 select {
     font-size: 14px;
     padding-left: 10px;
   }
@@ -1513,7 +1513,7 @@
     bottom: 20px;
     right: 10px;
   }
-  .FF-FIT-form-theme1 .select-activity .field-icon {
+  .FIT-MANNY-form-theme1 .select-activity .field-icon {
     font-size: 16px;
   }
   .btn-calculate {
@@ -1522,7 +1522,7 @@
   .btn-style-2 {
     font-size: 18px;
   }
-  .FF-FIT-form-theme1 label {
+  .FIT-MANNY-form-theme1 label {
     font-size: 15px;
   }
   .banner-swiper-action,
@@ -1577,23 +1577,23 @@
     border-top: 0px;
     border-bottom: 0px;
   }
-  .FF-FIT-menu {
+  .FIT-MANNY-menu {
     width: 100%;
     padding: 25px;
   }
-  .FF-FIT-menu .FF-FIT-menu-content .menu-options-list a {
+  .FIT-MANNY-menu .FIT-MANNY-menu-content .menu-options-list a {
     margin: 0px 20px 0px 0px;
     font-size: 20px;
     padding: 10px 20px 10px 0px;
   }
-  .FF-FIT-menu .FF-FIT-menu-content .language-section a {
+  .FIT-MANNY-menu .FIT-MANNY-menu-content .language-section a {
     font-size: 16px;
   }
-  .FF-FIT-menu .FF-FIT-menu-content .social-copyright a {
+  .FIT-MANNY-menu .FIT-MANNY-menu-content .social-copyright a {
     padding: 8px 8px 8px 0px;
     font-size: 16px;
   }
-  .FF-FIT-menu .FF-FIT-menu-content p.copyright-text {
+  .FIT-MANNY-menu .FIT-MANNY-menu-content p.copyright-text {
     font-size: 12px;
   }
   /*banner section*/

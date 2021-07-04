@@ -35,6 +35,7 @@ layout: base
       </div>
     </div>
   </section>
+  <!--// about us section -->
 
   <!-- offers section -->
   <section class="our-offers">
@@ -103,9 +104,10 @@ layout: base
       </div>
     </div>
   </section>
+  <!--// offers section -->
 
   <!-- results-transformation section -->
-  <secion class="results-transformation weight-lifing-outline-bg pt-5">
+  <section class="results-transformation weight-lifing-outline-bg pt-5">
     <div class="container py-0 py-sm-0 py-md-5">
       <div class="row py-5">
         <div class="col-xl-6 col-lg- 6 col-md-7">
@@ -162,7 +164,8 @@ layout: base
         </div>
       </div>
     </div>
-  </secion>
+  </section>
+  <!--// results-transformation section -->
 
   <!-- training programs section -->
   <section class="training-programs container-fluid text-white">
@@ -213,6 +216,7 @@ layout: base
       </div>
     </div>
   </section>
+  <!--// training programs section -->
 
   <!-- bmi calculator section -->
   <section class="bmi-calculator triangle-line-bg-right py-5">
@@ -275,7 +279,7 @@ layout: base
           <div class="bmi-calculator-form">
             <h2 class="text-uppercase">CALCULATE YOUR BMI</h2>
             <div class="bmi-form">
-              <form class="FF-FIT-form-theme1 pt-5 bmicalcform">
+              <form class="FIT-MANNY-form-theme1 pt-5 bmicalcform">
                 <div class="row">
                   <div class="col col-6">
                     <div class="form-group">
@@ -353,6 +357,7 @@ layout: base
       </div>
     </div>
   </section>
+  <!--// bmi calculator section -->
 
   <!--follow us section-->
   <section class="follow-us">
@@ -361,18 +366,18 @@ layout: base
         <div class="col-6">
           <div class="follow-link-1">
             <h4 class="text-uppercase">FOLLOW US</h4>
-            <a class="text-uppercase">@FF-FITAUS</a>
+            <a class="text-uppercase">@FIT-MANNYAUS</a>
           </div>
         </div>
         <div class="col-6">
           <div class="follow-link-2">
-            <h4 class="text-uppercase">FF-FIT IN THE SPOTLIGHT</h4>
-            <a class="text-uppercase">#FF-FITARMY</a>
+            <h4 class="text-uppercase">FIT-MANNY IN THE SPOTLIGHT</h4>
+            <a class="text-uppercase">#FIT-MANNYARMY</a>
           </div>
         </div>
         <div class="col col-12">
           <div class="pramotion-title">
-            <h1 class="text-uppercase">FF-FIT ARMY</h1>
+            <h1 class="text-uppercase">FIT-MANNY ARMY</h1>
           </div>
         </div>
       </div>
@@ -452,6 +457,7 @@ layout: base
       </div>
     </div>
   </section>
+  <!--// follow us section-->
 
   <!--our team section-->
   <section class="our-team cardio-outline-bg">
@@ -818,6 +824,7 @@ layout: base
       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
   </section>
+  <!--// our team section-->
 
   <!--class schedule section-->
   <section class="class-schedule">
@@ -1183,6 +1190,7 @@ layout: base
       </div>
     </div>
   </section>
+  <!--// class schedule section-->
 
   <!--testimonial section-->
   <section class="testimonial py-5">
@@ -1237,80 +1245,7 @@ layout: base
       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
   </section>
-
-  <!--app promotion section-->
-  <!-- <div class="app-promotion mb-5">
-    <div class="app-promotionp-in">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="app-mockup">
-              <img src="./assets/img/app-mockup.png" alt="FF Fit" class="mw-100">
-            </div>
-          </div>
-          <div class="col-md-6 py-5">
-            <div class="about-mobile-app p-lg-5 p-md-0 p-0">
-              <div class="title-style-4">
-                <h1><b>Download Now</b></h1>
-              </div>
-              <p class="mt-4 mb-5">Having strong muscles can help prevent injury and help you move better in
-                day-to-day life, whether you’re lifting a moving box or climbing stairs.</p>
-              <div class="download-store">
-                <div class="download-opts-lbl text-center">
-                  available now
-                </div>
-                <div class="download-opts text-right">
-                  <a href="javascript:void(0)"><img src="./assets/img/btn-playstore.png" alt="FF Fit"
-                      class="pl-3"></a>
-                  <a href="javascript:void(0)"><img src="./assets/img/btn-appstore.png" alt="FF Fit"
-                      class="pl-3"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  <!--contact section-->
-  <section class="quick-contact">
-    <div class="container quick-contact-title">
-      <h1><span>Still Have</span>A QUESTIONS?</h1>
-    </div>
-    <iframe class="overflow-hidden w-100 mw-100" width="200" src="" height="800"
-      style="border:0;" allowfullscreen=""></iframe>
-    <div class="quick-contact-wrapper">
-      <div class="quick-contact-content text-white">
-        <div class="section-lbl">
-          <span class="text-uppercase">Contact Us</span>
-          <h3>Get in touch</h3>
-        </div>
-        <div class="quick-contact-block d-flex align-items-center">
-          <div class="icon">
-            <img src="./assets/img/office-icon.png" alt="FF Fit" class="mw-100" />
-          </div>
-          <div class="details">
-            <h4>Offic<span class="text-pink">e</span></h4>
-            <p class="mb-0">Shop 5, 78-88 Tench Avenue Jamisontown 2750 NSW</p>
-          </div>
-        </div>
-        <div class="quick-contact-block d-flex align-items-center">
-          <div class="icon">
-            <img src="./assets/img/contact-icon.png" alt="FF Fit" class="mw-100">
-          </div>
-          <div class="details">
-            <h4>Contac<span class="text-pink">t</span></h4>
-            <p class="m-0">123-456-7890</p>
-            <a href="mailto:#" class="text-decoration-none d-table">
-              <p class="mb-0">me@example.com</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
+  <!--// testimonial section-->
 
 </main>
 <!-- /.container -->
