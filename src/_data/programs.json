@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ONLINE COACHING",
+    "price": "250",
+    "duration": "Monthly"
+  },
+  {
+    "name": "ONLINE & PT",
+    "price": "450",
+    "duration": "Monthly"
+  },
+  {
+    "name": "ONLINE & PT*",
+    "price": "550",
+    "duration": "Monthly"
+  },
+  {
+    "name": "STAGE POSING",
+    "price": "60",
+    "duration": "Hourly"
+  }
+]

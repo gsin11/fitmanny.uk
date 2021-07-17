@@ -19,8 +19,7 @@ layout: base
         <div class="col-lg-6">
           <div class="about-info-wrapper">
             <div class="title-style-1">
-              <h1 class="text-uppercase p-0 m-0">About Us</h1>
-              <span class="text-uppercase">The Best GYM</span>
+              <h1 class="text-uppercase p-0 m-0">About Me</h1>
             </div>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
@@ -29,82 +28,13 @@ layout: base
             <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
               Ipsum.</p>
-            <a href="javascript:void(0)" class="btn-style-1 my-3 text-uppercase">Read More</a>
+            <a href="/about.html" class="btn-style-1 my-3 text-uppercase">Read More</a>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!--// about us section -->
-
-  <!-- offers section -->
-  <section class="our-offers">
-    <div class="our-offers-in">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-3 d-flex align-self-end">
-            <div class="offer-statistics">
-              <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-4 col-4 text-center">
-                  <i class="far fa-clock"></i>
-                  <h3>1248</h3>
-                  <label>Working Hours</label>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-4 col-4 text-center">
-                  <i class="far fa-heart"></i>
-                  <h3>2346</h3>
-                  <label>Happy Clients</label>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-4 col-4 text-center">
-                  <i class="fas fa-award"></i>
-                  <h3>482</h3>
-                  <label>Winning Awards</label>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-9">
-            <div class="our-offers-info pt-5 px-3">
-              <h1>
-                <span class="text-uppercase">INTRODUCE</span>
-                All Offers
-              </h1>
-              <div class="offer-list">
-                <div class="offer">
-                  <div class="offer-icon">
-                    <img src="./assets/img/weight-loss.svg" alt="FF Fit" height="65" class="mw-100">
-                  </div>
-                  <div class="offer-details">
-                    <h3>Weight Loose</h3>
-                    <p>It is a long established fact that a reader will be distracted.</p>
-                  </div>
-                </div>
-                <div class="offer">
-                  <div class="offer-icon">
-                    <img src="./assets/img/body-building.svg" alt="FF Fit" height="65" class="mw-100">
-                  </div>
-                  <div class="offer-details">
-                    <h3>Body Building</h3>
-                    <p>or randomized words which don't look even slightly believable.</p>
-                  </div>
-                </div>
-                <div class="offer">
-                  <div class="offer-icon">
-                    <img src="./assets/img/special-classes.svg" alt="FF Fit" height="65" class="mw-100">
-                  </div>
-                  <div class="offer-details">
-                    <h3>Special Classes</h3>
-                    <p>It is a long established fact that a reader will be distracted.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--// offers section -->
 
   <!-- results-transformation section -->
   <section class="results-transformation weight-lifing-outline-bg pt-5">
@@ -172,9 +102,8 @@ layout: base
     <div class="row">
       <div class="col-md-3 col-sm-6 p-0 bg-gray">
         <div class="training-program-info">
-          <span class="text-uppercase text-pink">BODY SHAPE</span>
-          <h3 class="text-uppercase">CROSSFIT</h3>
-          <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus maecenas</p>
+          <h3 class="text-uppercase text-pink">{{programs[0].name}}</h3>
+          <p>&pound;{{programs[0].price}}/{{programs[0].duration}}</p>
           <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -183,9 +112,8 @@ layout: base
       </div>
       <div class="col-md-3 col-sm-6 p-0 bg-pink">
         <div class="training-program-info">
-          <span class="text-uppercase">RELAX PROGRAM</span>
-          <h3 class="text-uppercase">BODY BALANCE</h3>
-          <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus maecenas</p>
+          <h3 class="text-uppercase">{{programs[1].name}}</h3>
+          <p>&pound;{{programs[1].price}}/{{programs[1].duration}}</p>
           <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -197,9 +125,8 @@ layout: base
       </div>
       <div class="col-md-3 col-sm-6 p-0 bg-pink">
         <div class="training-program-info">
-          <span class="text-uppercase">CARDIO WORKFLOW</span>
-          <h3 class="text-uppercase">CARDIO</h3>
-          <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus maecenas</p>
+          <h3 class="text-uppercase">{{programs[2].name}}</h3>
+          <p>&pound;{{programs[2].price}}/{{programs[2].duration}}</p>
           <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -208,9 +135,8 @@ layout: base
       </div>
       <div class="col-md-3 col-sm-6 p-0 bg-gray">
         <div class="training-program-info">
-          <span class="text-uppercase text-pink">POWER-PRO</span>
-          <h3 class="text-uppercase">BOX</h3>
-          <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus maecenas</p>
+          <h3 class="text-uppercase text-pink">{{programs[3].name}}</h3>
+          <p>&pound;{{programs[3].price}}/{{programs[3].duration}}</p>
           <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -825,372 +751,6 @@ layout: base
     </div>
   </section>
   <!--// our team section-->
-
-  <!--class schedule section-->
-  <section class="class-schedule">
-    <div class="container class-schedule-timetable">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-style-3 pt-5 mt-5 text-white text-center">
-            <h1><b>Class Schedule</b></h1>
-            <p>Make yourself stronger than your excuses.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col col-12">
-          <div class="weekly-timetable text-white pt-5">
-            <ul class="nav nav-pills weekly-days-nav">
-              <li class="nav-item week-day">
-                <a class="nav-link" data-toggle="tab" href="/#monday-schedule">Monday</a>
-              </li>
-              <li class="nav-item week-day">
-                <a class="nav-link" data-toggle="tab"
-                  href="/#tuesday-schedule">Tuesday</a>
-              </li>
-              <li class="nav-item week-day">
-                <a class="nav-link" data-toggle="tab"
-                  href="/#wednesday-schedule">Wednesday</a>
-              </li>
-              <li class="nav-item week-day">
-                <a class="nav-link active" data-toggle="tab"
-                  href="/#thursday-schedule">Thursday</a>
-              </li>
-              <li class="nav-item week-day">
-                <a class="nav-link" data-toggle="tab" href="/#friday-schedule">Friday</a>
-              </li>
-              <li class="nav-item week-day">
-                <a class="nav-link" data-toggle="tab"
-                  href="/#saturday-schedule">Saturday</a>
-              </li>
-              <li class="nav-item week-day">
-                <a class="nav-link" data-toggle="tab" href="/#sunday-schedule">Sunday</a>
-              </li>
-            </ul>
-            <div class="tab-content timetable-schedule">
-              <div class="tab-pane container fade p-0" id="monday-schedule">
-                <div class="weekday-schedule pt-4">
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>ody building</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase active">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">F</span>itness</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>ardio</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>arate</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane container fade p-0" id="tuesday-schedule">
-                <div class="weekday-schedule pt-4">
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>ody building</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase active">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">F</span>itness</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>ardio</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>arate</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane container fade p-0" id="wednesday-schedule">
-                <div class="weekday-schedule pt-4">
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>ody building</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase active">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">F</span>itness</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>ardio</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>arate</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane container fade p-0" id="thursday-schedule">
-                <div class="weekday-schedule pt-4">
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>ody building</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase active">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">F</span>itness</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>ardio</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>arate</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane container fade p-0" id="friday-schedule">
-                <div class="weekday-schedule pt-4">
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>ody building</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase active">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">F</span>itness</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>ardio</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>arate</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane container fade p-0" id="saturday-schedule">
-                <div class="weekday-schedule pt-4">
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>ody building</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase active">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">F</span>itness</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>ardio</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>arate</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane container active p-0" id="sunday-schedule">
-                <div class="weekday-schedule pt-4">
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">B</span>ody building</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase active">
-                    <h4><span class="text-pink">B</span>oxing</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">F</span>itness</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>ardio</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4>-----</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                  <div class="class-batch-block text-uppercase">
-                    <h4><span class="text-pink">C</span>arate</h4>
-                    <p>06.00AM - 07.00AM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row py-4">
-        <div class="col col-12 text-center py-5">
-          <a href="javascript:void(0)" class="btn-style-3">
-            <i class="fas fa-download"></i>
-            download <span class="d-none d-sm-inline-block">our full class</span> schedule
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--// class schedule section-->
 
   <!--testimonial section-->
   <section class="testimonial py-5">

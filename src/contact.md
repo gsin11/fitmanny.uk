@@ -27,7 +27,7 @@ permalink: /contact.html
               </div>
               <div>
                 <h1>Call Us</h1>
-                <p>+40 755 222 456</p>
+                <p>+44 7752 423912</p>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ permalink: /contact.html
               </div>
               <div>
                 <h1>Mail Us</h1>
-                <p>me@example.com</p>
+                <p>officialfituk@gmail.com</p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ permalink: /contact.html
               </div>
               <div>
                 <h1>Address</h1>
-                <p>Po Box 33, Sylvania NSW 2224</p>
+                <p>Edinburgh, Scotland, EH6 6SU</p>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ permalink: /contact.html
     <div class="contact-form-in">
       <div class="container">
         <div class="head-note p-sm-5 p-4">
-          <p class="m-0"><sapn class="d-md-block d-none">Shoot us an email and tell us about your query or </sapn><b>just say hello!</b> We'll get back to you within 24hrs.</p>
+          <p class="m-0"><sapn class="d-md-block d-none">Shoot us an email and tell us about your query or </sapn><b>just say hello!</b> We'll get back to you within 48hrs.</p>
           <i class="fas fa-envelope-open text-pink"></i>
         </div>
         <div class="material-form py-5">
@@ -129,79 +129,6 @@ permalink: /contact.html
         </div>
       </div>
     </div>
-
   </section>
-
-  <!--locaiton map section-->
-  <section class="location-map pt-lg-5">
-    <iframe class="overflow-hidden w-100 mw-100" width="200" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3316.6401897000674!2d151.1109802!3d-33.7699626!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1571487136444!5m2!1sen!2sin" height="800" style="border:0;" allowfullscreen=""></iframe>
-    <div class="container">
-      <div class="available-addresses py-5 p-sm-5">
-        <div class="address-block">
-          <div>
-            <img src="./assets/img/location.svg" alt="FF Fit" width="85px" class="mw-100">
-          </div>
-          <div class="text-white ml-sm-5 ml-0">
-            <h6>Sydney</h6>
-            <p>Shop 5, 78-88 Tench Avenue Jamisontown 2750 NSW</p>
-          </div>
-        </div>
-        <div class="address-block">
-          <div>
-            <img src="./assets/img/location.svg" alt="FF Fit" width="85px" class="mw-100">
-          </div>
-          <div class="text-white ml-sm-5 ml-0">
-            <h6>Melbourne</h6>
-            <p class="m-0">Shop 5, 78-88 Tench Avenue Jamisontown 2750 NSW</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!--quickly get started section-->
-  <div class="container">
-    <div class="contact-redirection p-4 p-sm-5 p-md-4 p-sm-4 p-lg-5">
-      <div class="contact-redirection-info">
-        <h6>Thinking of Best Solution?</h6>
-        <h3 class="m-0">Let’s Build Fizik & Fitness Together!</h3>
-      </div>
-      <div class="contact-redirection-action pl-0 pl-md-4 pl-lg-5">
-        <a href="javascript:void(0)" class="btn text-uppercase btn-get-started btn-style-5">
-          Get Started
-          <img src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="ml-2">
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!--have question section-->
-  <section class="have-question">
-    <div class="container">
-      <div class="talk-expert">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="talk-expert-avatar">
-              <div class="section-lbl">
-                <span class="text-uppercase">still have</span>
-                <h3>A Questions?</h3>
-              </div>
-              <img src="./assets/img/expert-1.jpg" alt="FF Fit" class="mw-100">
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div class="talk-expert-info">
-              <span class="text-uppercase">Talk to an expert</span>
-              <p class="mb-0">Our team creates smart strategies and tactical marketing plans for top-line revenue growth and bottom line profitability. I will help you for your dream to come true.</p>
-              <a href="javascript:void(0)" class="btn-get-started btn-style-5">Get Started <img src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="ml-2"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
 </main>
 <!-- /.container -->

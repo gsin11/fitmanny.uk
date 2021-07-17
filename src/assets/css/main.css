@@ -792,7 +792,7 @@ a.FIT-MANNY-menu-close:hover {
 }
 .offer-list .offer .offer-details h3 {
   font-family: poppins-medium;
-  font-size: 26px;
+  font-size: 28px;
   padding-bottom: 10px;
 }
 .offer-list .offer .offer-details p {
@@ -959,7 +959,7 @@ a.FIT-MANNY-menu-close:hover {
 }
 .training-programs .training-program-info p {
   font-family: poppins-regular;
-  font-size: 20px;
+  font-size: 30px;
   margin: 16px 0px 20px 0px;
 }
 .training-programs .training-program-info a {
@@ -5388,8 +5388,6 @@ form.comment-reply .btn-post-comment {
   color: rgba(255, 255, 255, 1);
   font-size: 20px;
 }
-.footer-quick-contact {
-}
 .footer-quick-contact h4 {
   font-size: 30px;
   font-family: brandon-medium;
@@ -5398,6 +5396,8 @@ form.comment-reply .btn-post-comment {
   font-size: 40px;
   font-family: brandon-medium;
   padding: 10px 0px 5px 0px;
+}
+.footer-quick-contact h1 a {
   color: #ef0060;
 }
 .footer-quick-contact p {
