@@ -57,22 +57,6 @@ layout: base
                 </div>
               </div>
             </div>
-            <div class="col-sm-8 col-12 ml-auto mr-0 text-right">
-              <div class="result-statistics ml-auto ml-0">
-                <div class="result-weight">
-                  <div class="result-weight-in">
-                    <span>Weight</span>
-                    <h1>- 10 kg</h1>
-                  </div>
-                </div>
-                <div class="result-fat">
-                  <div class="result-fat-in">
-                    <span>Body Fat</span>
-                    <h1>- 16%</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div class="col-xl-6 col-lg- 6 col-md-5 mt-5 mt-sm-5 mt-md-0">
