@@ -14,7 +14,7 @@ permalink: /about.html
           <div class="col-lg-6 col-md-12">
             <div class="get-in-shape-avatar">
               <div class="avatar">
-                <img src="../assets/img/get-in-shape-avatar.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="../assets/img/get-in-shape-avatar.jpg" alt="FF Fit" class="mw-100">
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ permalink: /about.html
   <!-- gallery section -->
     <section class="our-gallery text-white">
       <div class="gallery-testimonial">
-        <img src="../assets/img/gallery-testimonial-1.jpg" alt="FF Fit" class="mw-100">
+        <img loading="lazy" src="../assets/img/gallery-testimonial-1.jpg" alt="FF Fit" class="mw-100">
         <div class="gallery-testimonial-info-holder">
           <div class="gallery-testimonial-info">
             <h4 class="text-uppercase">Manpreet Singh</h4>
@@ -81,144 +81,144 @@ permalink: /about.html
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-1.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-1.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-1.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-2.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-2.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-2.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-3.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-3.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-3.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-4.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-4.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-4.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-5.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-5.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-5.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-6.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-6.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-6.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-1.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-1.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-1.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-2.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-2.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-2.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-3.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-3.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-3.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-4.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-4.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-4.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-5.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-5.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-5.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
             <div class="gallery-block">
-              <img src="../assets/img/gallery/gallery-shot-6.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="../assets/img/gallery/gallery-shot-6.jpg" alt="FF Fit" class="mw-100">
               <div class="gallery-block-info">
                 <span class="text-uppercase">Relax Program</span>
                 <h2 class="text-uppercase">Body Balance</h2>
                 <p class="my-3">Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
                 <a class="btn btn-icon btn-gallery-zoom mt-3" data-fancybox="images" href="../assets/img/gallery/gallery-shot-6.jpg">
-                  <img src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
+                  <img loading="lazy" src="../assets/img/search.svg" alt="FF Fit" width="60%" class="mw-100">
                 </a>
               </div>
             </div>
@@ -245,7 +245,7 @@ permalink: /about.html
           <ul class="inspiration-step-timeline">
             <li>
               <div class="timeline-step" step-count="1">
-                <img src="../assets/img/inspiration-step-avatar1.png" alt="FF Fit"
+                <img loading="lazy" src="../assets/img/inspiration-step-avatar1.png" alt="FF Fit"
                   class="rounded-circle object-fit-cover w-100 h-100">
               </div>
               <h3 class="text-uppercase">Movement</h3>
@@ -253,7 +253,7 @@ permalink: /about.html
             </li>
             <li>
               <div class="timeline-step" step-count="2">
-                <img src="../assets/img/inspiration-step-avatar2.png" alt="FF Fit"
+                <img loading="lazy" src="../assets/img/inspiration-step-avatar2.png" alt="FF Fit"
                   class="rounded-circle object-fit-cover w-100 h-100">
               </div>
               <h3 class="text-uppercase">Time</h3>
@@ -261,7 +261,7 @@ permalink: /about.html
             </li>
             <li class="active">
               <div class="timeline-step" step-count="3">
-                <img src="../assets/img/inspiration-step-avatar3.png" alt="FF Fit"
+                <img loading="lazy" src="../assets/img/inspiration-step-avatar3.png" alt="FF Fit"
                   class="rounded-circle object-fit-cover w-100 h-100">
               </div>
               <h3 class="text-uppercase">Practise</h3>
@@ -269,7 +269,7 @@ permalink: /about.html
             </li>
             <li>
               <div class="timeline-step" step-count="4">
-                <img src="../assets/img/inspiration-step-avatar4.png" alt="FF Fit"
+                <img loading="lazy" src="../assets/img/inspiration-step-avatar4.png" alt="FF Fit"
                   class="rounded-circle object-fit-cover w-100 h-100">
               </div>
               <h3 class="text-uppercase">Weight Loss</h3>

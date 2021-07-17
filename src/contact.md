@@ -121,7 +121,7 @@ permalink: /contact.html
                 </label>
               </div>
               <div class="col-11 pt-4 py-sm-5">
-                <button type="submit" class="btn-style-2 btn-send-message btn-calculate text-uppercase d-inline-flex align-items-center justify-content-center" name="postComment">Send Message <img src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="ml-3"></button>
+                <button type="submit" class="btn-style-2 btn-send-message btn-calculate text-uppercase d-inline-flex align-items-center justify-content-center" name="postComment">Send Message <img loading="lazy" src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="ml-3"></button>
               </div>
               <div class="subalerts"></div>
             </div>

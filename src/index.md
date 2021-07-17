@@ -45,14 +45,14 @@ layout: base
             <div class="col-sm-9 col-12 text-left">
               <div class="result-thumbs d-flex align-items-center justify-content-between">
                 <div class="result-before-thumb mr-2">
-                  <img src="./assets/img/result-before-thumb-1.jpg" alt="FF Fit"
+                  <img loading="lazy" src="./assets/img/result-before-thumb-1.jpg" alt="FF Fit"
                     class="mw-100 object-fit-cover w-100 h-100">
                 </div>
                 <div class="transformation-indicator">
-                  <img src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
                 <div class="result-after-thumb">
-                  <img src="./assets/img/result-after-thumb-1.jpg" alt="FF Fit"
+                  <img loading="lazy" src="./assets/img/result-after-thumb-1.jpg" alt="FF Fit"
                     class="mw-100 object-fit-cover w-100 h-100">
                 </div>
               </div>
@@ -92,7 +92,7 @@ layout: base
         </div>
       </div>
       <div class="col-md-3 col-sm-6 p-0">
-        <img src="./assets/img/traning-program-4.jpg" alt="FF Fit" class="mw-100">
+        <img loading="lazy" src="./assets/img/traning-program-4.jpg" alt="FF Fit" class="mw-100">
       </div>
       <div class="col-md-3 col-sm-6 p-0 bg-pink">
         <div class="training-program-info">
@@ -102,10 +102,10 @@ layout: base
         </div>
       </div>
       <div class="col-md-3 col-sm-6 p-0">
-        <img src="./assets/img/traning-program-3.jpg" alt="FF Fit" class="mw-100">
+        <img loading="lazy" src="./assets/img/traning-program-3.jpg" alt="FF Fit" class="mw-100">
       </div>
       <div class="col-md-3 col-sm-6 p-0">
-        <img src="./assets/img/traning-program-2.jpg" alt="FF Fit" class="mw-100">
+        <img loading="lazy" src="./assets/img/traning-program-2.jpg" alt="FF Fit" class="mw-100">
       </div>
       <div class="col-md-3 col-sm-6 p-0 bg-pink">
         <div class="training-program-info">
@@ -115,7 +115,7 @@ layout: base
         </div>
       </div>
       <div class="col-md-3 col-sm-6 p-0">
-        <img src="./assets/img/traning-program-1.jpg" alt="FF Fit" class="mw-100">
+        <img loading="lazy" src="./assets/img/traning-program-1.jpg" alt="FF Fit" class="mw-100">
       </div>
       <div class="col-md-3 col-sm-6 p-0 bg-gray">
         <div class="training-program-info">
@@ -179,7 +179,7 @@ layout: base
             </div>
             <div class="bmi-chart-note">
               <div class="note-icon">
-                <img src="./assets/img/shild.svg" alt="FF Fit" width="30" class="mw-100">
+                <img loading="lazy" src="./assets/img/shild.svg" alt="FF Fit" width="30" class="mw-100">
               </div>
               <p class="m-0"><b>* BMR</b> Metabolic Rate <b>/ BMI</b> Body Mass Index</p>
             </div>
@@ -197,7 +197,7 @@ layout: base
                       <div class="position-relative">
                         <input type="text" class="form-control" id="yourHeight" placeholder="centimeter"
                           name="bmiheight" required="">
-                        <img src="./assets/img/height.svg" alt="FF Fit" class="field-icon">
+                        <img loading="lazy" src="./assets/img/height.svg" alt="FF Fit" class="field-icon">
                       </div>
                     </div>
                   </div>
@@ -207,7 +207,7 @@ layout: base
                       <div class="position-relative">
                         <input type="text" class="form-control" id="yourWeight" placeholder="kilogram"
                           name="bmiweight" required="">
-                        <img src="./assets/img/weight.svg" alt="FF Fit" class="field-icon">
+                        <img loading="lazy" src="./assets/img/weight.svg" alt="FF Fit" class="field-icon">
                       </div>
                     </div>
                   </div>
@@ -232,7 +232,7 @@ layout: base
                           <option value="Male">Male</option>
                           <option value="Female">Female</option>
                         </select>
-                        <img src="./assets/img/gender.svg" alt="FF Fit" class="field-icon">
+                        <img loading="lazy" src="./assets/img/gender.svg" alt="FF Fit" class="field-icon">
                       </div>
                     </div>
                   </div>
@@ -256,7 +256,7 @@ layout: base
                   <div class="comalert col-md-12"></div>
                   <div class="col-12 text-md-left text-sm-center text-left"><button
                       class="btn-style-2 btn-calculate text-uppercase d-inline-flex align-items-center justify-content-center"
-                      id="bmicalcbtn" type="submit">Calculate <img src="./assets/img/right-arrow.svg"
+                      id="bmicalcbtn" type="submit">Calculate <img loading="lazy" src="./assets/img/right-arrow.svg"
                         alt="FF Fit" height="20" class="ml-3"></button><span class="float-right BMI-calc-value">BMI :
                       <i class="bmi-result">0</i></span></div>
                 </div>
@@ -294,52 +294,52 @@ layout: base
     </div>
     <div class="insta-shots swiper-container-initialized swiper-container-horizontal">
       <div class="swiper-wrapper" style="transform: translate3d(-4242.5px, 0px, 0px); transition-duration: 0ms;">
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="4"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="4"><img loading="lazy"
             src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="5"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="5"><img loading="lazy"
             src="./assets/img/insta-shot-6.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="6"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="6"><img loading="lazy"
             src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="7"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="7"><img loading="lazy"
             src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
         <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: 282.833px;"
-          data-swiper-slide-index="8"><img src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100">
+          data-swiper-slide-index="8"><img loading="lazy" src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100">
         </div>
         <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 282.833px;"
-          data-swiper-slide-index="9"><img src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100">
+          data-swiper-slide-index="9"><img loading="lazy" src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100">
         </div>
         <div class="swiper-slide swiper-slide-duplicate-next" style="width: 282.833px;" data-swiper-slide-index="0">
-          <img src="./assets/img/insta-shot-1.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="1"><img
+          <img loading="lazy" src="./assets/img/insta-shot-1.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="1"><img loading="lazy"
             src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="2"><img
+        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="2"><img loading="lazy"
             src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="3"><img
+        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="3"><img loading="lazy"
             src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="4"><img
+        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="4"><img loading="lazy"
             src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="5"><img
+        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="5"><img loading="lazy"
             src="./assets/img/insta-shot-6.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="6"><img
+        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="6"><img loading="lazy"
             src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="7"><img
+        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="7"><img loading="lazy"
             src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-prev" style="width: 282.833px;" data-swiper-slide-index="8"><img
+        <div class="swiper-slide swiper-slide-prev" style="width: 282.833px;" data-swiper-slide-index="8"><img loading="lazy"
             src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-active" style="width: 282.833px;" data-swiper-slide-index="9"><img
+        <div class="swiper-slide swiper-slide-active" style="width: 282.833px;" data-swiper-slide-index="9"><img loading="lazy"
             src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
         <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" style="width: 282.833px;"
-          data-swiper-slide-index="0"><img src="./assets/img/insta-shot-1.jpg" alt="FF Fit" class="mw-100">
+          data-swiper-slide-index="0"><img loading="lazy" src="./assets/img/insta-shot-1.jpg" alt="FF Fit" class="mw-100">
         </div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="1"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="1"><img loading="lazy"
             src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="2"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="2"><img loading="lazy"
             src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="3"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="3"><img loading="lazy"
             src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="4"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="4"><img loading="lazy"
             src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="5"><img
+        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="5"><img loading="lazy"
             src="./assets/img/insta-shot-6.jpg" alt="FF Fit" class="mw-100"></div>
       </div>
       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
@@ -355,7 +355,7 @@ layout: base
               <div class="form-group">
                 <div class="newslatter-input">
                   <input type="email" id="yourEmailId" placeholder="E-MAIL ADDRESS" required="" name="subscribeemail">
-                  <button type="submit" class="border-0 bg-transparent" name="subscribeBtn"><img
+                  <button type="submit" class="border-0 bg-transparent" name="subscribeBtn"><img loading="lazy"
                       src="./assets/img/arrow-long.svg" alt="arrow" height="15" class="mw-100"
                       title="submit"></button>
                 </div>
@@ -389,7 +389,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">03</div>
-                <img src="./assets/img/team-member-3.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-3.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -399,7 +399,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#00a2ff;"></span>weight trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -414,7 +414,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">04</div>
-                <img src="./assets/img/team-member-4.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-4.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -424,7 +424,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#7800ff;"></span>sports trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -439,7 +439,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">01</div>
-                <img src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -449,7 +449,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#00ff5b;"></span>circuit trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -464,7 +464,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">02</div>
-                <img src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -474,7 +474,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#ff6c00;"></span>fintess trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -488,7 +488,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">01</div>
-                <img src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -498,7 +498,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#00ff5b;"></span>circuit trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -512,7 +512,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">02</div>
-                <img src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -522,7 +522,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#ff6c00;"></span>fintess trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -537,7 +537,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">03</div>
-                <img src="./assets/img/team-member-3.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-3.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -547,7 +547,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#00a2ff;"></span>weight trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -562,7 +562,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">04</div>
-                <img src="./assets/img/team-member-4.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-4.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -572,7 +572,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#7800ff;"></span>sports trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -587,7 +587,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">01</div>
-                <img src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -597,7 +597,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#00ff5b;"></span>circuit trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -611,7 +611,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">02</div>
-                <img src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -621,7 +621,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#ff6c00;"></span>fintess trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -636,7 +636,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">01</div>
-                <img src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-1.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -646,7 +646,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#00ff5b;"></span>circuit trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -661,7 +661,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">02</div>
-                <img src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-2.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -671,7 +671,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#ff6c00;"></span>fintess trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -686,7 +686,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">03</div>
-                <img src="./assets/img/team-member-3.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-3.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -696,7 +696,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#00a2ff;"></span>weight trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -711,7 +711,7 @@ layout: base
             <div class="d-flex align-items-start">
               <div class="team-member-info">
                 <div class="member-count text-right">04</div>
-                <img src="./assets/img/team-member-4.jpg" alt="FF Fit" class="mw-100">
+                <img loading="lazy" src="./assets/img/team-member-4.jpg" alt="FF Fit" class="mw-100">
                 <div class="joining-date text-uppercase">
                   <span>Joined : Febrary 2012</span>
                 </div>
@@ -721,7 +721,7 @@ layout: base
                     <p class="my-2"><span class="indicator mr-2" style="border-color:#7800ff;"></span>sports trainer
                     </p>
                   </div>
-                  <img src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
+                  <img loading="lazy" src="./assets/img/arrow-long.svg" alt="FF Fit" height="20" class="mw-100">
                 </div>
               </div>
               <div class="text-uppercase member-experience">
@@ -743,10 +743,10 @@ layout: base
         <div class="swiper-slide testimonial-block swiper-slide-active" style="margin-right: 30px;">
           <div class="testimonial-user-details">
             <div class="avatar-image">
-              <img src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
             </div>
             <h6 class="pl-3">Lauren Jackson</h6>
-            <p class="pl-3"><img src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
+            <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
             </p>
           </div>
           <div class="testimonial-message text-left">
@@ -758,10 +758,10 @@ layout: base
         <div class="swiper-slide testimonial-block swiper-slide-next" style="margin-right: 30px;">
           <div class="testimonial-user-details">
             <div class="avatar-image">
-              <img src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
             </div>
             <h6 class="pl-3">Lauren Jackson</h6>
-            <p class="pl-3"><img src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
+            <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
             </p>
           </div>
           <div class="testimonial-message text-left">
@@ -773,10 +773,10 @@ layout: base
         <div class="swiper-slide testimonial-block" style="margin-right: 30px;">
           <div class="testimonial-user-details">
             <div class="avatar-image">
-              <img src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
+              <img loading="lazy" src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
             </div>
             <h6 class="pl-3">Lauren Jackson</h6>
-            <p class="pl-3"><img src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
+            <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
             </p>
           </div>
           <div class="testimonial-message text-left">
