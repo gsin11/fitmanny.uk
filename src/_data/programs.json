@@ -2,21 +2,29 @@
   {
     "name": "ONLINE COACHING",
     "price": "250",
-    "duration": "Monthly"
+    "duration": "M",
+    "link": "/online-coaching.html",
+    "pic": "./assets/img/package-1.png"
   },
   {
     "name": "ONLINE & PT",
     "price": "450",
-    "duration": "Monthly"
+    "duration": "M",
+    "link": "/online-and-pt.html",
+    "pic": "./assets/img/package-3.png"
   },
   {
     "name": "ONLINE & PT*",
     "price": "550",
-    "duration": "Monthly"
+    "duration": "M",
+    "link": "/online-and-pt-plus.html",
+    "pic": "./assets/img/package-2.png"
   },
   {
     "name": "STAGE POSING",
     "price": "60",
-    "duration": "Hourly"
+    "duration": "H",
+    "link": "/stage-posing.html",
+    "pic": "./assets/img/package-4.png"
   }
 ]

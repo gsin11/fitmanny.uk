@@ -35,98 +35,37 @@ layout: base
     </div>
   </section>
   <!--// about us section -->
-
-  <!-- results-transformation section -->
-  <section class="results-transformation weight-lifing-outline-bg pt-5">
-    <div class="container py-0 py-sm-0 py-md-5">
-      <div class="row py-5">
-        <div class="col-xl-6 col-lg- 6 col-md-7">
-          <div class="row">
-            <div class="col-sm-9 col-12 text-left">
-              <div class="result-thumbs d-flex align-items-center justify-content-between">
-                <div class="result-before-thumb mr-2">
-                  <img loading="lazy" src="./assets/img/result-before-thumb-1.jpg" alt="FF Fit"
-                    class="mw-100 object-fit-cover w-100 h-100">
-                </div>
-                <div class="transformation-indicator">
-                  <img loading="lazy" src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="mw-100">
-                </div>
-                <div class="result-after-thumb">
-                  <img loading="lazy" src="./assets/img/result-after-thumb-1.jpg" alt="FF Fit"
-                    class="mw-100 object-fit-cover w-100 h-100">
-                </div>
-              </div>
+  <!-- price packages section -->
+    <section class="price-packages weight-lifing-outline-bg pt-4 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-style-2 text-center">
+              <h1><b>PRICE PACKAGES</b></h1>
+              <p class="mt-1">choose package as per your requirements & needs.</p>
             </div>
           </div>
         </div>
-        <div class="col-xl-6 col-lg- 6 col-md-5 mt-5 mt-sm-5 mt-md-0">
-          <div class="results-info pl-5">
-            <span class="text-uppercase">results make talks</span>
-            <h1>You are the client Real results</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit do eius mod tempor incididunt ut labore et
-              dolore magna aliqua. </p>
-          </div>
+        <div class="row my-4">
+          {%- for program in programs -%}
+            <div class="col-md-6 mb-4">
+              <div class="price-package-block">
+                <div class="price-package-block-in"
+                  style="background: #000 url({{program.pic}}) right top no-repeat;">
+                  <a href="{{program.link}}"
+                    class="btn-style-2 btn-calculate d-inline-flex align-items-center justify-content-center">{{program.name}}</a>
+                  <div class="package-price-info">
+                    <h4><span class="text-pink">&pound;</span>{{program.price}}/{{program.duration}}</h4>
+                    <p class="m-0"><a href={{program.link}} class="text-uppercase btn-style-1 text-white">Read More</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
         </div>
       </div>
-      <div class="row pb-sm-5 pb-md-0 pb-5">
-        <div class="col-md-12">
-          <div class="title-style-2 text-center pt-5 mt-md-5 mt-sm-0">
-            <h1><b>TRAINING PROGRAMS</b></h1>
-            <p class="mt-3">Let me take your workout routines to the next level with my full-body programs and
-              intensity challenges. Find a training that matches your needs.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--// results-transformation section -->
-
-  <!-- training programs section -->
-  <section class="training-programs container-fluid text-white">
-    <div class="row">
-      <div class="col-md-3 col-sm-6 p-0 bg-gray">
-        <div class="training-program-info">
-          <h3 class="text-uppercase text-pink">{{programs[0].name}}</h3>
-          <p>&pound;{{programs[0].price}}/{{programs[0].duration}}</p>
-          <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 p-0">
-        <img loading="lazy" src="./assets/img/traning-program-4.jpg" alt="FF Fit" class="mw-100">
-      </div>
-      <div class="col-md-3 col-sm-6 p-0 bg-pink">
-        <div class="training-program-info">
-          <h3 class="text-uppercase">{{programs[1].name}}</h3>
-          <p>&pound;{{programs[1].price}}/{{programs[1].duration}}</p>
-          <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 p-0">
-        <img loading="lazy" src="./assets/img/traning-program-3.jpg" alt="FF Fit" class="mw-100">
-      </div>
-      <div class="col-md-3 col-sm-6 p-0">
-        <img loading="lazy" src="./assets/img/traning-program-2.jpg" alt="FF Fit" class="mw-100">
-      </div>
-      <div class="col-md-3 col-sm-6 p-0 bg-pink">
-        <div class="training-program-info">
-          <h3 class="text-uppercase">{{programs[2].name}}</h3>
-          <p>&pound;{{programs[2].price}}/{{programs[2].duration}}</p>
-          <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 p-0">
-        <img loading="lazy" src="./assets/img/traning-program-1.jpg" alt="FF Fit" class="mw-100">
-      </div>
-      <div class="col-md-3 col-sm-6 p-0 bg-gray">
-        <div class="training-program-info">
-          <h3 class="text-uppercase text-pink">{{programs[3].name}}</h3>
-          <p>&pound;{{programs[3].price}}/{{programs[3].duration}}</p>
-          <a href="javascript:void(0)" class="text-uppercase">Read More &nbsp;<i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--// training programs section -->
+    </section>
+  <!-- // price packages section -->
 
   <!-- bmi calculator section -->
   <section class="bmi-calculator triangle-line-bg-right py-5">
