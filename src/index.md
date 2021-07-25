@@ -728,7 +728,7 @@ layout: base
       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
   </section>
-  <!--// testimonial section-->
+<!--// testimonial section-->
 
 </main>
 <!-- /.container -->

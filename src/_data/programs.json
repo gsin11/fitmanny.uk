@@ -4,27 +4,60 @@
     "price": "250",
     "duration": "M",
     "link": "/online-coaching.html",
-    "pic": "./assets/img/package-1.png"
+    "pic": "./assets/img/package-1.png",
+    "details": [
+      "Initial Discovery Call",
+      "Customized Diet Plans",
+      "Supplementation Advice",
+      "Workout Schedules",
+      "Weekly Progress Check-ins",
+      "Support When You Need It"
+    ]
   },
   {
     "name": "ONLINE & PT",
     "price": "450",
     "duration": "M",
     "link": "/online-and-pt.html",
-    "pic": "./assets/img/package-3.png"
+    "pic": "./assets/img/package-3.png",
+    "details": [
+      "Initial Discovery Call",
+      "2 P.T Sessions Every Week",
+      "Customized Diet Plans",
+      "Supplementation Advice",
+      "Workout Schedules",
+      "Weekly Progress Check-ins",
+      "Support When You Need It"
+    ]
   },
   {
     "name": "ONLINE & PT*",
     "price": "550",
     "duration": "M",
     "link": "/online-and-pt-plus.html",
-    "pic": "./assets/img/package-2.png"
+    "pic": "./assets/img/package-2.png",
+    "details": [
+      "Initial Discovery Call",
+      "3 P.T Sessions Every Week",
+      "Customized Diet Plans",
+      "Supplementation Advice",
+      "Workout Schedules",
+      "Weekly Progress Check-ins",
+      "Support When You Need It"
+    ]
   },
   {
     "name": "STAGE POSING",
     "price": "60",
     "duration": "H",
     "link": "/stage-posing.html",
-    "pic": "./assets/img/package-4.png"
+    "pic": "./assets/img/package-4.png",
+    "details": [
+      "1.5 hour Posing session",
+      "Confidence Building",
+      "Presentation On Stage",
+      "Build Your I Walk",
+      "Tips On Making An Impression On Stage"
+    ]
   }
 ]

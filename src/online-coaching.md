@@ -4,51 +4,85 @@ layout: inner
 permalink: /online-coaching.html
 ---
 
-<main role="main" class="content-area">
-
-  <!-- about us section -->
-  <section class="get-in-shape weight-lifing-outline-bg py-5">
-    <div class="triangle-line-bg-left py-0 py-sm-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="get-in-shape-avatar">
-              <div class="avatar">
-                <img loading="lazy" src="../assets/img/get-in-shape-avatar.jpg" alt="FF Fit" class="mw-100">
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="get-in-shape-description m-0 ml-lg-5 ml-md-0 mt-lg-0 mt-5">
-              <span class="text-uppercase">results make talks</span>
-              <h1>The Place to <br />Get In shape</h1>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                of letters, as opposed to using 'Content here, content here', making it look like readable</p>
-              <a href="/contact.html" class="btn-style-2 btn-stay-in-touch text-uppercase">stay in touch</a>
-              <div class="about-statistics mt-3">
-                <div class="row">
-                  <div class="col-md-4 col-sm-4 col-6 d-none d-sm-block text-center">
-                    <i class="far fa-clock"></i>
-                    <h3>1248</h3>
-                    <label>Working Hours</label>
-                  </div>
-                  <div class="col-md-4 col-sm-4 col-6 text-center">
-                    <i class="far fa-heart"></i>
-                    <h3>2346</h3>
-                    <label>Happy Clients</label>
-                  </div>
-                  <div class="col-md-4 col-sm-4 col-6 text-center">
-                    <i class="fas fa-award"></i>
-                    <h3>482</h3>
-                    <label>Winning Awards</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<main role="main" class="content-area blogdetailspage">
+  <!--blog details section-->
+  <section class="blog-details position-relative">
+    <div class="container">
+      <div class="blog-detailed-content">
+        <h1 class="blog-title">You will get these</h1>
+        <ul>
+        {%- for detail in programs[0].details -%}
+          <li><p class="text-desc mb-0">{{detail}}</p></li>
+        {%- endfor -%}
       </div>
     </div>
   </section>
+  <div class="container">
+    <div class="contact-redirection p-4 p-sm-5 px-md-3 py-md-4 p-sm-4 px-lg-4 py-lg-5">
+      <div class="contact-redirection-info">
+        <h6>Thinking of Best Solution?</h6>
+        <h3 class="m-0">Let’s Build Fizik & Fitness Together!</h3>
+      </div>
+      <div class="contact-redirection-action pl-0 pl-md-4 pl-lg-5">
+        <a href="javascript:void(0)" class="btn text-uppercase btn-get-started btn-style-5">
+          Get Started
+          <img src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="ml-2">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--testimonial section-->
+  <section class="testimonial py-5">
+    <div class="our-testimonial py-5 swiper-container-initialized swiper-container-horizontal">
+      <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(293.5px, 0px, 0px);">
+        <div class="swiper-slide testimonial-block swiper-slide-active" style="margin-right: 30px;">
+          <div class="testimonial-user-details">
+            <div class="avatar-image">
+              <img loading="lazy" src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
+            </div>
+            <h6 class="pl-3">Lauren Jackson</h6>
+            <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
+            </p>
+          </div>
+          <div class="testimonial-message text-left">
+            <h3>Excellent Service</h3>
+            <p class="m-0">Ipsum dolor sit amet, eu per legimus referrentur. Ius ne viris repudiare, nominavi
+              sententiae eos in. Et duo salutatus consequat Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="swiper-slide testimonial-block swiper-slide-next" style="margin-right: 30px;">
+          <div class="testimonial-user-details">
+            <div class="avatar-image">
+              <img loading="lazy" src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
+            </div>
+            <h6 class="pl-3">Lauren Jackson</h6>
+            <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
+            </p>
+          </div>
+          <div class="testimonial-message text-left">
+            <h3>Excellent Service</h3>
+            <p class="m-0">Ipsum dolor sit amet, eu per legimus referrentur. Ius ne viris repudiare, nominavi
+              sententiae eos in. Et duo salutatus consequat Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="swiper-slide testimonial-block" style="margin-right: 30px;">
+          <div class="testimonial-user-details">
+            <div class="avatar-image">
+              <img loading="lazy" src="./assets/img/user-avatar-1.jpg" alt="FF Fit" class="mw-100">
+            </div>
+            <h6 class="pl-3">Lauren Jackson</h6>
+            <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2"> sydney, au
+            </p>
+          </div>
+          <div class="testimonial-message text-left">
+            <h3>Excellent Service</h3>
+            <p class="m-0">Ipsum dolor sit amet, eu per legimus referrentur. Ius ne viris repudiare, nominavi
+              sententiae eos in. Et duo salutatus consequat Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+    </div>
+  </section>
+  <!--// testimonial section-->
 </main>
