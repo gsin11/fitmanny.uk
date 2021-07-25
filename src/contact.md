@@ -27,7 +27,7 @@ permalink: /contact.html
               </div>
               <div>
                 <h1>Call Us</h1>
-                <p>+44 7752 423912</p>
+                <p>{{userData.mobile}}</p>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ permalink: /contact.html
               </div>
               <div>
                 <h1>Mail Us</h1>
-                <p>officialfituk@gmail.com</p>
+                <p>{{userData.email}}</p>
               </div>
             </div>
           </div>

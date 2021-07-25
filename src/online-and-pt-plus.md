@@ -20,12 +20,12 @@ permalink: /online-and-pt-plus.html
   <div class="container">
     <div class="contact-redirection p-4 p-sm-5 px-md-3 py-md-4 p-sm-4 px-lg-4 py-lg-5">
       <div class="contact-redirection-info">
-        <h6>Thinking of Best Solution?</h6>
-        <h3 class="m-0">Let’s Build Fizik & Fitness Together!</h3>
+        <h6>Do you have any question?</h6>
+        <h3 class="m-0">Feel free to get in touch with me!</h3>
       </div>
       <div class="contact-redirection-action pl-0 pl-md-4 pl-lg-5">
-        <a href="javascript:void(0)" class="btn text-uppercase btn-get-started btn-style-5">
-          Get Started
+        <a href="/contact.html" class="btn text-uppercase btn-get-started btn-style-5">
+          Contact Me
           <img src="./assets/img/right-arrow.svg" alt="FF Fit" height="20" class="ml-2">
         </a>
       </div>

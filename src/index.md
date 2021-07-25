@@ -283,28 +283,6 @@ layout: base
       </div>
       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
-    <div class="newslatter">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 align-self-center">
-            <h4 class="text-uppercase">BE THE FIRST TO KNOW</h4>
-          </div>
-          <div class="col-md-6">
-            <form class="subscribeForm" method="post" action="/">
-              <div class="form-group">
-                <div class="newslatter-input">
-                  <input type="email" id="yourEmailId" placeholder="E-MAIL ADDRESS" required="" name="subscribeemail">
-                  <button type="submit" class="border-0 bg-transparent" name="subscribeBtn"><img loading="lazy"
-                      src="./assets/img/arrow-long.svg" alt="arrow" height="15" class="mw-100"
-                      title="submit"></button>
-                </div>
-                <div class="subalerts"></div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
   <!--// follow us section-->
 
@@ -314,8 +292,8 @@ layout: base
       <div class="row">
         <div class="col-md-12">
           <div class="title-style-2 pt-5 mt-0 mt-sm-5">
-            <h1><b>OUR TEAM</b></h1>
-            <p class="text-uppercase">MEET OUR STRONGEST TEAM</p>
+            <h1><b>MY CLIENTS</b></h1>
+            <p class="text-uppercase">MEET MY SATISFIED CLIENTS</p>
           </div>
         </div>
       </div>

@@ -8,26 +8,22 @@
         <div class="col-md-5 footer-quick-contact py-3 py-sm-3 py-md-5">
           <h3>Quick Contact</h3>
           <h4>Let’s talk fitness first!</h4>
-          <h1><a href="tel:+447752423912">+44 7752 423912</a></h1>
-          <p>Technology is great, <br>but somethimes it's just nice to talk to a real person.</p>
+          <h1><a href="tel:{{userData.mobile}}">{{userData.mobile}}</a></h1>
+          <p>Welcome to the world of results</p>
         </div>
         <div class="col-md-4 useful-links py-3 py-sm-3 py-md-5">
-          <h3>Useful Links</h3>
+          <h3>Services</h3>
           <ul>
-            <li><a href="javascript:void(0)">Home</a></li>
-            <li>
-              <a href="javascript:void(0)"></a><a href="javascript:void(0)">Meet the Team</a>
-            </li>
-            <li><a href="javascript:void(0)">Client Success Stories</a></li>
-            <li><a href="javascript:void(0)">Experience Matters</a></li>
+            {%- for program in programs -%}
+            <li><a href="{{program.link}}">{{program.name}}</a></li>
+            {%- endfor -%}
           </ul>
         </div>
         <div class="col-md-3 get-in-touch py-3 py-sm-3 py-md-5">
           <h3>Get In Touch</h3>
           <ul>
-            <li><a href="/">Fit your self</a></li>
-            <li><a href="/">Read Blog</a></li>
-            <li><a href="/">Popular Links</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
             <li>
               <ul class="social-links">
                 <li><a href="{{socialLinks.instagram.link}}" title="{{socialLinks.instagram.label}}"><i class="fab fa-instagram"></i></a></li>
