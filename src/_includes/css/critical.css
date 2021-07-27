@@ -395,3 +395,27 @@ h5 {
   border: 1px solid #ef0060;
   transition: all 0.6s;
 }
+
+.loader img {
+  animation: autoScale 0.5s ease infinite;
+}
+
+@keyframes autoScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
