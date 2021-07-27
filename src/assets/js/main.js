@@ -224,35 +224,6 @@ $(document).ready(function () {
       },
     },
   });
-  /*============== // testimonial carousel //  =================*/
-  $(document).ready(function () {
-    $(".bmicalcform").on("submit", function (e) {
-      e.preventDefault();
-      var weightkgs = $("[name='bmiweight']").val(); // assume as kgs in weight
-      var heightinches = $("[name='bmiheight']").val();
-      var heightmeters = heightinches * 0.0254; // convert height from inches to meters
-      var bmi = weightkgs / (heightmeters * heightmeters);
-      $(this).find(".bmi-result").html(bmi.toFixed(2));
-    });
-
-    $(".subscribeForm").on("submit", function (e) {
-      e.preventDefault();
-      $.ajax({
-        type: "post",
-        url: "mail-subscribe.php",
-        data: $(".subscribeForm").serialize(),
-        success: function () {
-          $(".subalerts").append(
-            '<p class="alertClass text-white">Form Successfully Submitted.</p>'
-          );
-          $(".subscribeForm").trigger("reset");
-          setTimeout(function () {
-            $(".alertClass").fadeOut();
-          }, 900);
-        },
-      });
-    });
-  });
 
   /*=================== gallery shots =========================*/
   var galleryswiper = new Swiper(".gallery-shots", {
@@ -272,4 +243,34 @@ $(document).ready(function () {
     },
   });
   /*=================// gallery shots //=======================*/
+});
+
+/*============== // testimonial carousel //  =================*/
+$(document).ready(function () {
+  $(".bmicalcform").on("submit", function (e) {
+    e.preventDefault();
+    var weightkgs = $("[name='bmiweight']").val(); // assume as kgs in weight
+    var heightinches = $("[name='bmiheight']").val();
+    var heightmeters = heightinches * 0.0254; // convert height from inches to meters
+    var bmi = weightkgs / (heightmeters * heightmeters);
+    $(this).find(".bmi-result").html(bmi.toFixed(2));
+  });
+
+  $(".subscribeForm").on("submit", function (e) {
+    e.preventDefault();
+    $.ajax({
+      type: "post",
+      url: "mail-subscribe.php",
+      data: $(".subscribeForm").serialize(),
+      success: function () {
+        $(".subalerts").append(
+          '<p class="alertClass text-white">Form Successfully Submitted.</p>'
+        );
+        $(".subscribeForm").trigger("reset");
+        setTimeout(function () {
+          $(".alertClass").fadeOut();
+        }, 900);
+      },
+    });
+  });
 });
