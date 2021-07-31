@@ -56,7 +56,7 @@ layout: base
         </div>
         <div class="col col-12">
           <div class="pramotion-title">
-            <h1 class="text-uppercase">FIT-MANNY ARMY</h1>
+            <h1 class="text-uppercase">FITMANNY UK</h1>
           </div>
         </div>
       </div>
