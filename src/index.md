@@ -61,57 +61,19 @@ layout: base
         </div>
       </div>
     </div>
-    <div class="insta-shots swiper-container-initialized swiper-container-horizontal">
-      <div class="swiper-wrapper" style="transform: translate3d(-4242.5px, 0px, 0px); transition-duration: 0ms;">
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="4"><img loading="lazy"
-            src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="5"><img loading="lazy"
-            src="./assets/img/insta-shot-6.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="6"><img loading="lazy"
-            src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="7"><img loading="lazy"
-            src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: 282.833px;"
-          data-swiper-slide-index="8"><img loading="lazy" src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100">
-        </div>
-        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 282.833px;"
-          data-swiper-slide-index="9"><img loading="lazy" src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100">
-        </div>
-        <div class="swiper-slide swiper-slide-duplicate-next" style="width: 282.833px;" data-swiper-slide-index="0">
-          <img loading="lazy" src="./assets/img/insta-shot-1.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="1"><img loading="lazy"
-            src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="2"><img loading="lazy"
-            src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="3"><img loading="lazy"
-            src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="4"><img loading="lazy"
-            src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="5"><img loading="lazy"
-            src="./assets/img/insta-shot-6.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="6"><img loading="lazy"
-            src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide" style="width: 282.833px;" data-swiper-slide-index="7"><img loading="lazy"
-            src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-prev" style="width: 282.833px;" data-swiper-slide-index="8"><img loading="lazy"
-            src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-active" style="width: 282.833px;" data-swiper-slide-index="9"><img loading="lazy"
-            src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" style="width: 282.833px;"
-          data-swiper-slide-index="0"><img loading="lazy" src="./assets/img/insta-shot-1.jpg" alt="FF Fit" class="mw-100">
-        </div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="1"><img loading="lazy"
-            src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="2"><img loading="lazy"
-            src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="3"><img loading="lazy"
-            src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="4"><img loading="lazy"
-            src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
-        <div class="swiper-slide swiper-slide-duplicate" style="width: 282.833px;" data-swiper-slide-index="5"><img loading="lazy"
-            src="./assets/img/insta-shot-6.jpg" alt="FF Fit" class="mw-100"></div>
+    <div class="insta-shots">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-1.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-6.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-5.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
       </div>
-      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
   </section>
   <!--// follow us section-->

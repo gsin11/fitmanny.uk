@@ -18,20 +18,7 @@ permalink: /contact.html
           </div>
         </div>
       </div>
-      <div class="row py-3 py-sm-0 py-lg-5">
-        <div class="col-lg-4 col-md-6">
-          <div class="contact-info-block">
-            <div class="contact-info-block-in">
-              <div class="icon">
-                <i class="fas fa-phone-volume"></i>
-              </div>
-              <div>
-                <h1>Call Us</h1>
-                <p>{{userData.mobile}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="row py-3 py-sm-0 py-lg-5 justify-center">
         <div class="col-lg-4 col-md-6">
           <div class="contact-info-block">
             <div class="contact-info-block-in">
