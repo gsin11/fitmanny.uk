@@ -1,0 +1,140 @@
+<!-- bmi calculator section -->
+<section class="bmi-calculator triangle-line-bg-right py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 py-5">
+        <div class="bmi-calculator-chart pr-5">
+          <h2 class="text-uppercase">BMI CALCULATOR CHART</h2>
+          <div class="bmi-chart mt-5 mb-3">
+            <div class="row text-uppercase text-pink bmi-chart-title">
+              <div class="col col-5">
+                bmi
+              </div>
+              <div class="col col-7">
+                Weight Status
+              </div>
+            </div>
+            <div class="row bmi-chart-row">
+              <div class="col col-5">
+                Below 18.5
+              </div>
+              <div class="col col-7">
+                Underweight
+              </div>
+            </div>
+            <div class="row bmi-chart-row">
+              <div class="col col-5">
+                18.5 - 24.9
+              </div>
+              <div class="col col-7">
+                Healthy
+              </div>
+            </div>
+            <div class="row bmi-chart-row">
+              <div class="col col-5">
+                25.0 - 29.9
+              </div>
+              <div class="col col-7">
+                Overweight
+              </div>
+            </div>
+            <div class="row bmi-chart-row">
+              <div class="col col-5">
+                30.0 - and Above
+              </div>
+              <div class="col col-7">
+                Obese
+              </div>
+            </div>
+          </div>
+          <div class="bmi-chart-note">
+            <div class="note-icon">
+              <img loading="lazy" src="./assets/img/shild.svg" alt="FF Fit" width="30" class="mw-100">
+            </div>
+            <p class="m-0"><b>* BMR</b> Metabolic Rate <b>/ BMI</b> Body Mass Index</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 py-5">
+        <div class="bmi-calculator-form">
+          <h2 class="text-uppercase">CALCULATE YOUR BMI</h2>
+          <div class="bmi-form">
+            <form class="FIT-MANNY-form-theme1 pt-5 bmicalcform">
+              <div class="row">
+                <div class="col col-6">
+                  <div class="form-group">
+                    <label for="yourHeight">Height(inches) :*</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control" id="yourHeight" placeholder="centimeter"
+                        name="bmiheight" required="">
+                      <img loading="lazy" src="./assets/img/height.svg" alt="FF Fit" class="field-icon">
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-6">
+                  <div class="form-group">
+                    <label for="yourWeight">Weight(kgs) :*</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control" id="yourWeight" placeholder="kilogram"
+                        name="bmiweight" required="">
+                      <img loading="lazy" src="./assets/img/weight.svg" alt="FF Fit" class="field-icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-6">
+                  <div class="form-group">
+                    <label for="yourAge">Age :*</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control" id="yourAge" placeholder="years" name="bmiage"
+                        required="">
+                      <i class="fas fa-calendar field-icon"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-6">
+                  <div class="form-group">
+                    <label for="selectGender">Gender :*</label>
+                    <div class="position-relative">
+                      <select class="form-control" id="selectGender" name="bmigender" required="">
+                        <option value="">select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                      </select>
+                      <img loading="lazy" src="./assets/img/gender.svg" alt="FF Fit" class="field-icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-12">
+                  <div class="form-group">
+                    <label for="selectActivity">Select an activity factor :*</label>
+                    <div class="position-relative select-activity">
+                      <select class="form-control" id="selectActivity" name="bmiactivity" required="">
+                        <option value="">select activity</option>
+                        <option value="Activity 1">Activity 1</option>
+                        <option value="Activity 2">Activity 2</option>
+                      </select>
+                      <i class="fas fa-chevron-down field-icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="comalert col-md-12"></div>
+                <div class="col-12 text-md-left text-sm-center text-left"><button
+                    class="btn-style-2 btn-calculate text-uppercase d-inline-flex align-items-center justify-content-center"
+                    id="bmicalcbtn" type="submit">Calculate <img loading="lazy" src="./assets/img/right-arrow.svg"
+                      alt="FF Fit" height="20" class="ml-3"></button><span class="float-right BMI-calc-value">BMI :
+                    <i class="bmi-result">0</i></span></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--// bmi calculator section -->
