@@ -77,7 +77,6 @@ layout: base
     </div>
   </section>
   <!--// follow us section-->
-  {% include partials/_clients.html %}
   {% include partials/_testimonial.html %}
 </main>
 <!-- /.container -->
