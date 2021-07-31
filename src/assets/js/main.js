@@ -275,52 +275,51 @@ $(document).ready(function () {
   });
 });
 
-function initPayPalButton() {
-  paypal
-    .Buttons({
-      style: {
-        shape: "rect",
-        color: "blue",
-        layout: "horizontal",
-        label: "paypal",
-      },
+function initPayPalButton(product_name, price) {
+  if (product_name !== "" && price !== "") {
+    paypal
+      .Buttons({
+        style: {
+          shape: "rect",
+          color: "blue",
+          layout: "horizontal",
+          label: "paypal",
+          tagline: false,
+        },
 
-      createOrder: function (data, actions) {
-        return actions.order.create({
-          purchase_units: [
-            {
-              description: "ONLINE COACHING",
-              amount: { currency_code: "GBP", value: 250 },
-            },
-          ],
-        });
-      },
+        createOrder: function (data, actions) {
+          return actions.order.create({
+            purchase_units: [
+              {
+                description: product_name,
+                amount: { currency_code: "GBP", value: price },
+              },
+            ],
+          });
+        },
 
-      onApprove: function (data, actions) {
-        return actions.order.capture().then(function (orderData) {
-          // Full available details
-          console.log(
-            "Capture result",
-            orderData,
-            JSON.stringify(orderData, null, 2)
-          );
+        onApprove: function (data, actions) {
+          return actions.order.capture().then(function (orderData) {
+            // Full available details
+            console.log(
+              "Capture result",
+              orderData,
+              JSON.stringify(orderData, null, 2)
+            );
 
-          // Show a success message within this page, e.g.
-          const element = document.getElementById("paypal-button-container");
-          element.innerHTML = "";
-          element.innerHTML = "<h3>Thank you for your payment!</h3>";
+            // Show a success message within this page, e.g.
+            const element = document.getElementById("paypal-button-container");
+            element.innerHTML = "";
+            element.innerHTML = "<h3>Thank you for your payment!</h3>";
 
-          // Or go to another URL:  actions.redirect('thank_you.html');
-        });
-      },
+            // Or go to another URL:  actions.redirect('thank_you.html');
+          });
+        },
 
-      onError: function (err) {
-        console.log(err);
-      },
-    })
-    .render("#paypal-button-container");
+        onError: function (err) {
+          console.log(err);
+        },
+      })
+      .render("#paypal-button-container");
+  }
 }
-
-$(document).ready(function () {
-  initPayPalButton();
-});

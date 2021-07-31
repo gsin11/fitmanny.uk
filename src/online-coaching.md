@@ -51,8 +51,12 @@ permalink: /online-coaching.html
         </div>
       </div>
     </div>
-
   </section>
   {% include partials/_contact-badge.html %}
   {% include partials/_testimonial.html %}
 </main>
+<script type="text/javascript">
+  $(document).ready(function () {
+    initPayPalButton("{{programs[0].name}}", {{programs[0].price}});
+  });
+</script>

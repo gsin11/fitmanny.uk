@@ -22,7 +22,11 @@ permalink: /online-and-pt-plus.html
                     {%- for detail in programs[2].details -%}
                       <p class="text-desc mb-2"><i class="fas fa-chevron-right"></i> {{detail}}</p>
                     {%- endfor -%}
-                    <a href="/contact.html" class="btn-style-1 my-3 text-uppercase"><span>Purchase Now</span></a>
+                    <div id="smart-button-container">
+                      <div style="text-align: center;">
+                        <div id="paypal-button-container"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -51,3 +55,8 @@ permalink: /online-and-pt-plus.html
   {% include partials/_contact-badge.html %}
   {% include partials/_testimonial.html %}
 </main>
+<script type="text/javascript">
+  $(document).ready(function () {
+    initPayPalButton("{{programs[2].name}}", {{programs[2].price}});
+  });
+</script>
