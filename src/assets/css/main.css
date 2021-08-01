@@ -3499,15 +3499,25 @@ ul.inspiration-step-timeline li p {
   font-size: 60px;
   color: #fff;
   margin-bottom: 30px;
-}
-.price-package-block h4 span {
-  font-size: 55px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  padding: 0 20px;
+  display: flex;
+  align-self: flex-start;
 }
 .price-package-block h5 {
   font-family: poppins-bold;
   font-size: 40px;
   color: #fff;
   margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  display: flex;
+  align-self: flex-start;
+  padding: 0 20px;
+}
+.price-package-block h4 span {
+  font-size: 55px;
 }
 .price-package-block h5 span {
   font-size: 40px;
