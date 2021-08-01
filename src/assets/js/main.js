@@ -250,8 +250,8 @@ $(document).ready(function () {
   $(".bmicalcform").on("submit", function (e) {
     e.preventDefault();
     var weightkgs = $("[name='bmiweight']").val(); // assume as kgs in weight
-    var heightinches = $("[name='bmiheight']").val();
-    var heightmeters = heightinches * 0.0254; // convert height from inches to meters
+    var heightcentimeters = $("[name='bmiheight']").val();
+    var heightmeters = heightcentimeters * 0.01; // convert height from centimeters to meters
     var bmi = weightkgs / (heightmeters * heightmeters);
     $(this).find(".bmi-result").html(bmi.toFixed(2));
   });
