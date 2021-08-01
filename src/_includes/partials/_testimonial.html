@@ -1,20 +1,28 @@
 <!--testimonial section-->
 <section class="testimonial py-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="title-style-2 text-center">
+        <h1><b>MY CLIENTS</b></h1>
+      </div>
+    </div>
+  </div>
   <div class="our-testimonial py-5 swiper-container-initialized swiper-container-horizontal">
     <div class="swiper-wrapper">
       {%- for testimonial in testimonials -%}
-        <div class="swiper-slide testimonial-block">
-          <div class="testimonial-user-details">
-            <div class="avatar-image">
-              <img loading="lazy" src="{{testimonial.image_link}}" alt="FF Fit" class="mw-100">
-            </div>
-            <h6 class="pl-3">{{testimonial.name}}</h6>
-            <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25" class="mr-2">{{testimonial.location}}</p>
+      <div class="swiper-slide testimonial-block">
+        <div class="testimonial-user-details">
+          <div class="avatar-image">
+            <img loading="lazy" src="{{testimonial.image_link}}" alt="FF Fit" class="mw-100">
           </div>
-          <div class="testimonial-message text-left">
-            <p class="m-0">{{testimonial.details}}</p>
-          </div>
+          <h6 class="pl-3">{{testimonial.name}}</h6>
+          <p class="pl-3"><img loading="lazy" src="./assets/img/pin.svg" alt="FF Fit" height="25"
+              class="mr-2">{{testimonial.location}}</p>
         </div>
+        <div class="testimonial-message text-left">
+          <p class="m-0">{{testimonial.details}}</p>
+        </div>
+      </div>
       {%- endfor -%}
     </div>
     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
