@@ -35,7 +35,8 @@ permalink: /online-and-pt-plus.html
           <div class="col-lg-6 order-lg-2 col-md-12 order-1">
             <div class="new-blog-date">
               <div class="date-month">
-                <h1>&pound;{{programs[2].price}}/{{programs[2].duration}}</h1>
+                <h2 class="text-center line-through">&pound;{{programs[2].price}}/{{programs[2].duration}}</h2>
+                <h1>&pound;{{programs[2].offer_price}}/{{programs[2].duration}}</h1>
               </div>
             </div>
             <div class="new-blog-banners overflow-hidden h-100">
@@ -57,6 +58,6 @@ permalink: /online-and-pt-plus.html
 </main>
 <script type="text/javascript">
   $(document).ready(function () {
-    initPayPalButton("{{programs[2].name}}", {{programs[2].price}});
+    initPayPalButton("{{programs[2].name}}", {{programs[2].offer_price}});
   });
 </script>

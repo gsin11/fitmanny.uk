@@ -404,6 +404,10 @@ h5 {
   justify-content: center;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 @keyframes autoScale {
   0% {
     transform: scale(1);

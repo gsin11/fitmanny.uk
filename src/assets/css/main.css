@@ -3439,12 +3439,16 @@ ul.inspiration-step-timeline li p {
 .price-packages h4 {
   font-family: "ubuntu-medium";
   font-size: 24px;
-  margin: 45px 0px 25px 0px;
 }
 .price-packages h4 span {
   font-family: ubuntu-bold;
   color: #dd1667;
   font-size: 30px;
+}
+.price-packages h5 span {
+  font-family: ubuntu-bold;
+  color: #dd1667;
+  font-size: 25px;
 }
 .price-package-block {
   height: 400px;
@@ -3498,6 +3502,15 @@ ul.inspiration-step-timeline li p {
 }
 .price-package-block h4 span {
   font-size: 55px;
+}
+.price-package-block h5 {
+  font-family: poppins-bold;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.price-package-block h5 span {
+  font-size: 40px;
 }
 .price-package-block p {
   font-family: avenir-medium;
@@ -4268,6 +4281,12 @@ label.iagreeupdate {
   font-family: brandon-bold;
   font-size: 50px;
   line-height: 50px;
+  margin: 0px;
+}
+.new-blog-date .date-month h2 {
+  font-family: brandon-bold;
+  font-size: 35px;
+  line-height: 35px;
   margin: 0px;
 }
 .new-blog-date .date-month span {

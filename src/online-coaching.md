@@ -35,7 +35,8 @@ permalink: /online-coaching.html
           <div class="col-lg-6 order-lg-2 col-md-12 order-1">
             <div class="new-blog-date">
               <div class="date-month">
-                <h1>&pound;{{programs[0].price}}/{{programs[0].duration}}</h1>
+                <h2 class="text-center line-through">&pound;{{programs[0].price}}/{{programs[0].duration}}</h2>
+                <h1>&pound;{{programs[0].offer_price}}/{{programs[0].duration}}</h1>
               </div>
             </div>
             <div class="new-blog-banners overflow-hidden h-100">
@@ -57,6 +58,6 @@ permalink: /online-coaching.html
 </main>
 <script type="text/javascript">
   $(document).ready(function () {
-    initPayPalButton("{{programs[0].name}}", {{programs[0].price}});
+    initPayPalButton("{{programs[0].name}}", {{programs[0].offer_price}});
   });
 </script>
