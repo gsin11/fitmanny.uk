@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image_link": "./assets/img/user-avatar-1.jpg",
+    "name": "Bhupinderjit Singh",
+    "location": "Amritsar, IN",
+    "details": "Your training website is one of the best platform to beat any competition.. I am highly benefitied from it and recommend it to everyone who wish to have a good body with healthy mind...."
+  },
+  {
+    "id": 2,
+    "image_link": "./assets/img/user-avatar-2.jpg",
+    "name": "Anurag bajaj",
+    "location": "Delhi, IN",
+    "details": "one of the best bodybuilder and fitness trainer 🔥"
+  },
+  {
+    "id": 3,
+    "image_link": "./assets/img/user-avatar-3.jpg",
+    "name": "Mahi",
+    "location": "Delhi, IN",
+    "details": "Very professional and good trainer .He helped me alot throughout my fitness journey"
+  },
+  {
+    "id": 4,
+    "image_link": "./assets/img/user-avatar-4.jpg",
+    "name": "Gulshan",
+    "location": "Delhi, IN",
+    "details": "Best fitness expert 👌 fully experienced..."
+  },
+  {
+    "id": 5,
+    "image_link": "./assets/img/user-avatar-5.jpg",
+    "name": "Servemeet Bal",
+    "location": "Delhi, IN",
+    "details": "Very educated and practical mentor and coach you are sir. I love your dedication and loyalty towards the game .. Big respect ✊🏻 Manni"
+  }
+]
