@@ -33,5 +33,26 @@
     "name": "Servemeet Bal",
     "location": "Delhi, IN",
     "details": "Very educated and practical mentor and coach you are sir. I love your dedication and loyalty towards the game .. Big respect ✊🏻 Manni"
+  },
+  {
+    "id": 6,
+    "image_link": "./assets/img/user-avatar-6.jpg",
+    "name": "Mahi",
+    "location": "Delhi, IN",
+    "details": "When youre as overweight as I am, working out at the gym can be plain embarrassing. Thank you so much for providing a way for people like me to get in shape without public ridicule."
+  },
+  {
+    "id": 7,
+    "image_link": "./assets/img/user-avatar-7.jpg",
+    "name": "Abhijeet Singh",
+    "location": "Delhi, IN",
+    "details": "Manny have great knowledge of weight training and nutrition. Helped me a lot in achieving the results i was looking for. Very humble person."
+  },
+  {
+    "id": 8,
+    "image_link": "./assets/img/user-avatar-8.jpg",
+    "name": "Paras Khurana",
+    "location": "Delhi, IN",
+    "details": "This training website has not only helped with my physical shape, but they also taught me the importance of nutrition, and seven months later can truly say that it was worth every penny. Looking and feeling the best I have in years! Highly recommended!"
   }
 ]
