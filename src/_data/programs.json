@@ -3,7 +3,7 @@
     "name": "1 MONTH",
     "price": "150",
     "offer_price": "90",
-    "duration": "M",
+    "duration": "",
     "link": "/one-month-program.html",
     "pic": "./assets/img/package-1.png",
     "details": [
@@ -19,7 +19,7 @@
     "name": "3 MONTHS",
     "price": "300",
     "offer_price": "220",
-    "duration": "M",
+    "duration": "",
     "link": "/three-months-program.html",
     "pic": "./assets/img/package-3.png",
     "details": [
@@ -35,7 +35,7 @@
     "name": "6 MONTHS",
     "price": "550",
     "offer_price": "460",
-    "duration": "M",
+    "duration": "",
     "link": "/six-months-program.html",
     "pic": "./assets/img/package-2.png",
     "details": [
