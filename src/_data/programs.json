@@ -1,10 +1,10 @@
 [
   {
-    "name": "ONLINE COACHING",
-    "price": "250",
-    "offer_price": "180",
+    "name": "1 MONTH",
+    "price": "150",
+    "offer_price": "90",
     "duration": "M",
-    "link": "/online-coaching.html",
+    "link": "/one-month-program.html",
     "pic": "./assets/img/package-1.png",
     "details": [
       "Initial Discovery Call",
@@ -16,11 +16,11 @@
     ]
   },
   {
-    "name": "ONLINE & PT",
-    "price": "450",
-    "offer_price": "350",
+    "name": "3 MONTHS",
+    "price": "300",
+    "offer_price": "220",
     "duration": "M",
-    "link": "/online-and-pt.html",
+    "link": "/three-months-program.html",
     "pic": "./assets/img/package-3.png",
     "details": [
       "Initial Discovery Call",
@@ -33,11 +33,11 @@
     ]
   },
   {
-    "name": "ONLINE & PT+",
+    "name": "6 MONTHS",
     "price": "550",
-    "offer_price": "420",
+    "offer_price": "460",
     "duration": "M",
-    "link": "/online-and-pt-plus.html",
+    "link": "/six-months-program.html",
     "pic": "./assets/img/package-2.png",
     "details": [
       "Initial Discovery Call",
@@ -50,11 +50,11 @@
     ]
   },
   {
-    "name": "STAGE POSING",
+    "name": "ONLY DIET SCHEDULE",
     "price": "60",
-    "offer_price": "45",
-    "duration": "H",
-    "link": "/stage-posing.html",
+    "offer_price": "35",
+    "duration": "M",
+    "link": "/only-diet-schedule.html",
     "pic": "./assets/img/package-4.png",
     "details": [
       "1.5 hour Posing session",

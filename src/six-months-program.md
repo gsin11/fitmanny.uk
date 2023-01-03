@@ -1,7 +1,7 @@
 ---
-title: FitManny - Online Coaching
+title: FitManny - Online and PT plus
 layout: inner
-permalink: /online-coaching.html
+permalink: /six-months-program.html
 ---
 
 <main role="main" class="content-area blogdetailspage">
@@ -19,7 +19,7 @@ permalink: /online-coaching.html
                       <img src="./assets/img/arrow-long.svg" alt="FF Fit" width="55px" class="mw-100" />
                     </div>
                     <h1 class="mb-4">You will get these</h1>
-                    {%- for detail in programs[0].details -%}
+                    {%- for detail in programs[2].details -%}
                       <p class="text-desc mb-2"><i class="fas fa-chevron-right"></i> {{detail}}</p>
                     {%- endfor -%}
                     <div id="smart-button-container">
@@ -35,15 +35,15 @@ permalink: /online-coaching.html
           <div class="col-lg-6 order-lg-2 col-md-12 order-1">
             <div class="new-blog-date">
               <div class="date-month">
-                <h2 class="text-center line-through">&pound;{{programs[0].price}}/{{programs[0].duration}}</h2>
-                <h1>&pound;{{programs[0].offer_price}}/{{programs[0].duration}}</h1>
+                <h2 class="text-center line-through">&pound;{{programs[2].price}}/{{programs[2].duration}}</h2>
+                <h1>&pound;{{programs[2].offer_price}}/{{programs[2].duration}}</h1>
               </div>
             </div>
             <div class="new-blog-banners overflow-hidden h-100">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="new-blog-banner h-100">
-                    <img src="./assets/img/package_1_detail.png" alt="{{programs[0].name}}" class="mw-100">
+                    <img src="./assets/img/package_3_detail.png" alt="FF Fit" class="mw-100">
                   </div>
                 </div>
               </div>
@@ -58,6 +58,6 @@ permalink: /online-coaching.html
 </main>
 <script type="text/javascript">
   $(document).ready(function () {
-    initPayPalButton("{{programs[0].name}}", {{programs[0].offer_price}});
+    initPayPalButton("{{programs[2].name}}", {{programs[2].offer_price}});
   });
 </script>

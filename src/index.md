@@ -74,6 +74,7 @@ layout: base
         <div class="swiper-slide"><img src="./assets/img/insta-shot-4.jpg" alt="FF Fit" class="mw-100"></div>
         <div class="swiper-slide"><img src="./assets/img/insta-shot-3.jpg" alt="FF Fit" class="mw-100"></div>
         <div class="swiper-slide"><img src="./assets/img/insta-shot-2.jpg" alt="FF Fit" class="mw-100"></div>
+        <div class="swiper-slide"><img src="./assets/img/insta-shot-7.jpg" alt="FF Fit" class="mw-100"></div>
       </div>
     </div>
   </section>
