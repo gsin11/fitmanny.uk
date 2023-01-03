@@ -24,7 +24,6 @@
     "pic": "./assets/img/package-3.png",
     "details": [
       "Initial Discovery Call",
-      "2 P.T Sessions Every Week",
       "Customized Diet Plans",
       "Supplementation Advice",
       "Workout Schedules",
@@ -41,7 +40,6 @@
     "pic": "./assets/img/package-2.png",
     "details": [
       "Initial Discovery Call",
-      "3 P.T Sessions Every Week",
       "Customized Diet Plans",
       "Supplementation Advice",
       "Workout Schedules",
@@ -57,11 +55,9 @@
     "link": "/only-diet-schedule.html",
     "pic": "./assets/img/package-4.png",
     "details": [
-      "1.5 hour Posing session",
-      "Confidence Building",
-      "Presentation On Stage",
-      "Build Your I Walk",
-      "Tips On Making An Impression On Stage"
+      "Customized Diet Schedule",
+      "Non-Veg, Veg and Vegan options available",
+      "Supplementation Advice included"
     ]
   }
 ]

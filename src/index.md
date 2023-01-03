@@ -26,8 +26,8 @@ layout: base
                   <a href="{{program.link}}"
                     class="btn-style-2 btn-calculate d-inline-flex align-items-center justify-content-center">{{program.name}}</a>
                   <div class="package-price-info">
-                    <h5 class="line-through"><span class="text-pink">&pound;</span>{{program.price}}/{{program.duration}}</h5>
-                    <h4><span class="text-pink">&pound;</span>{{program.offer_price}}/{{program.duration}}</h4>
+                    <h5 class="line-through"><span class="text-pink">&pound;</span>{{program.price}}</h5>
+                    <h4><span class="text-pink">&pound;</span>{{program.offer_price}}</h4>
                     <p class="m-0"><a href={{program.link}} class="text-uppercase btn-style-1 text-white">Read More</a></p>
                   </div>
                 </div>
