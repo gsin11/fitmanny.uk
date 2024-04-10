@@ -95,12 +95,10 @@ h5 {
   transform: rotate(40deg);
 }
 .title-style-1 h1 {
-  font-family: poppins-bold;
   font-size: 85px;
   line-height: 85px;
 }
 .title-style-1 span {
-  font-family: museosans-300;
   font-size: 30px;
   color: #464646;
 }
@@ -116,7 +114,6 @@ h5 {
   transform: rotate(40deg);
 }
 .title-style-2 h1 {
-  font-family: poppins-semibold;
   font-size: 60px;
   line-height: 85px;
   display: inline-block;
@@ -139,7 +136,6 @@ h5 {
   position: relative;
 }
 .title-style-2 p {
-  font-family: poppins-regular;
   font-size: 20px;
   color: #999999;
   z-index: 2;
@@ -160,7 +156,6 @@ h5 {
   transform: rotate(40deg);
 }
 .title-style-3 h1 {
-  font-family: poppins-semibold;
   font-size: 52px;
   line-height: 65px;
   display: inline-block;
@@ -183,7 +178,6 @@ h5 {
   position: relative;
 }
 .title-style-3 p {
-  font-family: poppins-regular;
   font-size: 20px;
 }
 .title-style-4 h1:before {
@@ -198,7 +192,6 @@ h5 {
   transform: rotate(40deg);
 }
 .title-style-4 h1 {
-  font-family: brandon-bold;
   font-size: 48px;
   line-height: 65px;
   display: inline-block;
@@ -222,7 +215,6 @@ h5 {
   position: relative;
 }
 .title-style-4 p {
-  font-family: poppins-regular;
   font-size: 20px;
 }
 .title-style-5 h1:before {
@@ -237,7 +229,6 @@ h5 {
   transform: rotate(40deg);
 }
 .title-style-5 h1 {
-  font-family: poppins-semibold;
   font-size: 60px;
   line-height: 85px;
   display: inline-block;
@@ -269,7 +260,6 @@ h5 {
   content: "";
 }
 .title-style-5 p {
-  font-family: rajdhani-bold;
   font-size: 16px;
   color: #000000;
   z-index: 2;
@@ -287,7 +277,6 @@ h5 {
   color: #000;
   border-radius: 50px;
   padding: 14px 35px;
-  font-family: poppins-bold;
   font-size: 20px;
 }
 .btn-style-1:hover {
@@ -301,7 +290,6 @@ h5 {
   border-radius: 5px;
   height: 65px;
   padding: 0px 25px;
-  font-family: "ubuntu-medium";
   font-size: 24px;
   color: #fff;
   border: none;
@@ -314,7 +302,6 @@ h5 {
 }
 .btn-style-3 {
   border-radius: 1000px;
-  font-family: bebas-bold;
   color: #fff;
   display: inline-flex;
   align-items: center;
@@ -347,7 +334,6 @@ h5 {
   border-radius: 5px;
   height: 70px;
   padding: 0px 25px;
-  font-family: "ubuntu-medium";
   font-size: 26px;
   color: #fff;
   line-height: 70px;
@@ -381,7 +367,6 @@ h5 {
   border-radius: 5px;
   height: 70px;
   padding: 0px 25px;
-  font-family: "ubuntu-medium";
   font-size: 26px;
   color: #fff;
   line-height: 65px;

@@ -59,7 +59,6 @@
 }
 .link-joining-program span {
   text-align: right;
-  font-family: rajdhani-semibold;
 }
 .link-joining-program i {
   font-size: 34px;
@@ -163,7 +162,7 @@ a.FIT-MANNY-menu-close:hover {
 }
 .FIT-MANNY-menu .FIT-MANNY-menu-content .menu-options-list a {
   margin: 10px 20px 10px 0px;
-  font-family: avenir-roman;
+  
   font-size: 30px;
   color: rgba(255, 255, 255, 0.75);
   padding: 10px 20px 10px 0px;
@@ -190,7 +189,6 @@ a.FIT-MANNY-menu-close:hover {
 }
 .FIT-MANNY-menu .FIT-MANNY-menu-content .social-copyright a {
   margin: 10px 35px 10px 0px;
-  font-family: avenir-book;
   font-size: 36px;
   color: rgba(255, 255, 255, 0.5);
   padding: 20px 30px 20px 0px;
@@ -203,7 +201,6 @@ a.FIT-MANNY-menu-close:hover {
 }
 .copyright-text,
 .copyright-text a {
-  font-family: avenir-book;
   font-size: 20px;
   opacity: 0.9;
   letter-spacing: 1px;
@@ -315,7 +312,6 @@ a.FIT-MANNY-menu-close:hover {
   content: "";
 }
 .banner-content-holder .banner-title h1 {
-  font-family: rajdhani-bold;
   font-size: 110px;
   color: #fff;
   line-height: 0.9;
@@ -323,7 +319,6 @@ a.FIT-MANNY-menu-close:hover {
   position: relative;
 }
 .banner-content-holder .banner-title h1 p {
-  font-family: rajdhani-medium;
   font-size: 18px;
   letter-spacing: 2px;
   line-height: 70px;
@@ -410,7 +405,6 @@ a.FIT-MANNY-menu-close:hover {
   align-items: start;
 }
 .banner-swiper-action .banner-pagination {
-  font-family: bebas-bold;
   font-size: 60px;
   line-height: 50px;
 }
@@ -443,14 +437,12 @@ a.FIT-MANNY-menu-close:hover {
   align-items: center;
 }
 .banner-statistics-block .block-states {
-  font-family: poppins-semibold;
   font-size: 50px;
   letter-spacing: -5px;
   padding-right: 20px;
   line-height: 1;
 }
 .banner-statistics-block .block-lbl {
-  font-family: avenir-book;
   opacity: 0.75;
   color: #fff;
   font-size: 16px;
@@ -481,7 +473,6 @@ a.FIT-MANNY-menu-close:hover {
 }
 .banner-swiper-progress .banner-current-count,
 .banner-swiper-progress .banner-total-count {
-  font-family: rajdhani-medium;
   font-size: 20px;
   color: #fff;
   padding: 0px 10px;
@@ -509,7 +500,7 @@ a.FIT-MANNY-menu-close:hover {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #000;
-  font-family: rajdhani-semibold;
+  
   font-size: 22px;
   letter-spacing: 2px;
   line-height: 20px;
@@ -580,7 +571,7 @@ a.FIT-MANNY-menu-close:hover {
 .banner-social-holder ul.social-opts li.list-label {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-family: rajdhani-semibold;
+  
   color: #000;
   letter-spacing: 2px;
 }
@@ -593,7 +584,7 @@ a.FIT-MANNY-menu-close:hover {
   background-color: #ef0060;
   color: #fff;
   border-radius: 3px;
-  font-family: rajdhani-semibold;
+  
   position: absolute;
   top: 0px;
   right: 0px;
@@ -610,7 +601,7 @@ a.FIT-MANNY-menu-close:hover {
 .banner-social-holder .banner-exlplore-opt {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-family: rajdhani-semibold;
+  
   color: #000;
   letter-spacing: 2px;
   flex-grow: 0;
@@ -663,7 +654,6 @@ a.FIT-MANNY-menu-close:hover {
   padding: 35px 0px;
 }
 .about-us .about-info-wrapper p {
-  font-family: poppins-regular;
   font-size: 17px;
   opacity: 0.75;
   margin-bottom: 20px;
@@ -741,24 +731,20 @@ a.FIT-MANNY-menu-close:hover {
   font-size: 48px;
 }
 .offer-statistics h3 {
-  font-family: poppins-semibold;
   font-size: 24px;
   margin: 15px 0px 0px 0px;
   letter-spacing: 2px;
 }
 .offer-statistics label {
-  font-family: ubuntu-regular;
   font-size: 16px;
   opacity: 0.8;
   letter-spacing: 1px;
 }
 .our-offers-info h1 {
-  font-family: poppins-bold;
   font-size: 48px;
   color: #fff;
 }
 .our-offers-info h1 span {
-  font-family: poppins-regular;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.75);
   display: block;
@@ -791,12 +777,11 @@ a.FIT-MANNY-menu-close:hover {
   margin-left: 20px;
 }
 .offer-list .offer .offer-details h3 {
-  font-family: poppins-medium;
   font-size: 28px;
   padding-bottom: 10px;
 }
 .offer-list .offer .offer-details p {
-  font-family: avenir-roman;
+  
   font-size: 18px;
 }
 /* ------------results transformation-------------*/
@@ -855,12 +840,11 @@ a.FIT-MANNY-menu-close:hover {
 }
 .result-statistics .result-weight span,
 .result-statistics .result-fat span {
-  font-family: avenir-roman;
+  
   font-size: 18px;
 }
 .result-statistics .result-weight h1,
 .result-statistics .result-fat h1 {
-  font-family: ubuntu-bold;
   font-size: 40px;
   margin: 0px;
 }
@@ -888,7 +872,7 @@ a.FIT-MANNY-menu-close:hover {
   content: "";
 }
 .results-transformation .results-info span {
-  font-family: rajdhani-semibold;
+  
   letter-spacing: 3px;
   display: block;
   margin: 0px 0px 20px 0px;
@@ -896,14 +880,12 @@ a.FIT-MANNY-menu-close:hover {
   padding-left: 60px;
 }
 .results-transformation .results-info h1 {
-  font-family: brandon-bold;
   font-size: 72px;
   color: #000;
   letter-spacing: -2px;
   line-height: 65px;
 }
 .results-transformation .results-info p {
-  font-family: ubuntu-regular;
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   margin: 35px 0px 25px 0px;
@@ -949,21 +931,17 @@ a.FIT-MANNY-menu-close:hover {
   z-index: 1;
 }
 .training-programs .training-program-info span {
-  font-family: rajdhani-medium;
   font-size: 20px;
   letter-spacing: 2px;
 }
 .training-programs .training-program-info h3 {
-  font-family: rajdhani-bold;
   font-size: 48px;
 }
 .training-programs .training-program-info p {
-  font-family: poppins-regular;
   font-size: 30px;
   margin: 16px 0px 20px 0px;
 }
 .training-programs .training-program-info a {
-  font-family: rajdhani-bold;
   font-size: 20px;
   color: #fff;
   margin-right: auto;
@@ -980,7 +958,6 @@ a.FIT-MANNY-menu-close:hover {
 }
 .bmi-calculator .bmi-calculator-chart h2,
 .bmi-calculator .bmi-calculator-form h2 {
-  font-family: bebas-bold;
   font-size: 40px;
   font-weight: bold;
 }
@@ -989,14 +966,12 @@ a.FIT-MANNY-menu-close:hover {
 .bmi-calculator .bmi-calculator-chart {
 }
 .bmi-calculator .bmi-chart .bmi-chart-title {
-  font-family: bebas-bold;
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 2px;
   border-bottom: 2px solid #a6a6a6;
 }
 .bmi-calculator .bmi-chart .bmi-chart-row {
-  font-family: ubuntu-regular;
   font-size: 22px;
   border-bottom: 2px dashed #a6a6a6;
 }
@@ -1052,7 +1027,6 @@ a.FIT-MANNY-menu-close:hover {
   position: relative;
 }
 .FIT-MANNY-form-theme1 label {
-  font-family: avenir-medium;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.65);
 }
@@ -1061,7 +1035,6 @@ a.FIT-MANNY-menu-close:hover {
   height: 60px;
   border: 0px;
   background-color: #f6f6f6;
-  font-family: ubuntu-regular;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
   -webkit-appearance: none;
@@ -1147,12 +1120,10 @@ a.FIT-MANNY-menu-close:hover {
 }
 .follow-us .follow-link-1 h4,
 .follow-us .follow-link-2 h4 {
-  font-family: poppins-semibold;
   font-size: 24px;
 }
 .follow-us .follow-link-1 a,
 .follow-us .follow-link-2 a {
-  font-family: poppins-regular;
   font-size: 16px;
 }
 .follow-us .follow-link-1 {
@@ -1165,7 +1136,6 @@ a.FIT-MANNY-menu-close:hover {
 .pramotion-title h1 {
   font-size: 125px;
   color: rgba(10, 13, 14, 0.35);
-  font-family: poppins-bold;
   letter-spacing: 4px;
   margin: 0px;
   line-height: 85px;
@@ -1185,7 +1155,6 @@ a.FIT-MANNY-menu-close:hover {
   color: #fff;
 }
 .follow-us .newslatter h4 {
-  font-family: poppins-semibold;
   font-size: 30px;
 }
 .newslatter-input {
@@ -1225,7 +1194,6 @@ a.FIT-MANNY-menu-close:hover {
 .team-member-block .member-count {
   writing-mode: vertical-rl;
   float: right;
-  font-family: brandon-black;
   color: #ef0060;
   padding-bottom: 10px;
   font-size: 20px;
@@ -1234,7 +1202,6 @@ a.FIT-MANNY-menu-close:hover {
 }
 .team-member-block .member-experience {
   writing-mode: vertical-rl;
-  font-family: brandon-bold;
   letter-spacing: 4px;
   color: rgba(0, 0, 0, 0.35);
   padding: 0px 5px;
@@ -1300,7 +1267,6 @@ a.FIT-MANNY-menu-close:hover {
 .team-member-block .joining-date span {
   background-color: #ef0060;
   color: #fff;
-  font-family: rajdhani-bold;
   padding: 12px 15px;
   letter-spacing: 2px;
   border-radius: 0px 0px 0px 5px;
@@ -1313,12 +1279,10 @@ a.FIT-MANNY-menu-close:hover {
   justify-content: space-between;
 }
 .team-member-block .member-info h3 {
-  font-family: museosans-700;
   font-size: 30px;
   line-height: 40px;
 }
 .team-member-block .member-info p {
-  font-family: museosans-500;
   font-size: 22px;
   color: rgba(0, 0, 0, 0.6);
   display: flex;
@@ -1376,7 +1340,6 @@ ul.weekly-days-nav {
   justify-content: space-between;
 }
 ul.weekly-days-nav li.week-day a {
-  font-family: bebas-bold;
   font-size: 30px;
   color: #fff;
   letter-spacing: 2px;
@@ -1418,11 +1381,9 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   background-color: #000;
 }
 .timetable-schedule .weekday-schedule .class-batch-block h4 {
-  font-family: poppins-medium;
   font-size: 24px;
 }
 .timetable-schedule .weekday-schedule .class-batch-block p {
-  font-family: "ubuntu-medium";
   color: rgba(255, 255, 255, 0.75);
 }
 /* ------------testimonial-------------*/
@@ -1469,7 +1430,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
 }
 .testimonial-block .testimonial-user-details h6 {
   font-size: 24px;
-  font-family: museosans-500;
   margin-top: 20px;
   text-align: left;
 }
@@ -1477,7 +1437,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   display: flex;
   align-items: center;
   line-height: 25px;
-  font-family: museosans-500;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -1508,12 +1467,10 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   font-size: 45px;
 }
 .testimonial-block .testimonial-message h3 {
-  font-family: museosans-700;
   font-size: 42px;
   margin-bottom: 20px;
 }
 .testimonial-block .testimonial-message p {
-  font-family: avenir-medium;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.75);
 }
@@ -1628,7 +1585,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
 .app-promotion .about-mobile-app {
 }
 .app-promotion .about-mobile-app p {
-  font-family: museosans-500;
   font-size: 23px;
   color: #fff;
   line-height: 40px;
@@ -1640,7 +1596,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
 .about-mobile-app .download-store .download-opts-lbl {
   writing-mode: sideways-lr;
   -webkit-writing-mode: vertical-rl;
-  font-family: brandon-medium;
   font-size: 36px;
   color: #8c0139;
   line-height: 32px;
@@ -1723,12 +1678,10 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   margin-bottom: -100px;
 }
 .quick-contact-title h1 {
-  font-family: poppins-bold;
   font-size: 100px;
 }
 .quick-contact-title h1 span {
   display: block;
-  font-family: poppins-regular;
   font-size: 50px;
   color: #b4b4b4;
 }
@@ -1759,11 +1712,9 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   padding-right: 30px;
 }
 .quick-contact-content .quick-contact-block .details h4 {
-  font-family: ubuntu-regular;
   font-size: 36px;
 }
 .quick-contact-content .quick-contact-block .details p {
-  font-family: avenir-medium;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -1777,14 +1728,12 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   padding: 75px 35px 0px 0px;
 }
 .quick-contact-content .section-lbl span {
-  font-family: rajdhani-bold;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.75);
   letter-spacing: 2px;
 }
 .quick-contact-content .section-lbl h3 {
   color: #fff;
-  font-family: poppins-medium;
   font-size: 30px;
   letter-spacing: 2px;
 }
@@ -1820,7 +1769,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   transform: rotate(136deg);
 }
 .quick-contact-content .map-pin-popup .map-custom-popup h2 {
-  font-family: poppins-semibold;
   font-size: 36px;
   text-align: center;
   padding: 15px 0px;
@@ -1832,7 +1780,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   color: rgba(0, 0, 0, 0.75);
   text-align: center;
   font-size: 24px;
-  font-family: avenir-medium;
 }
 /* About Page */
 /* ------------get in shape-------------*/
@@ -1890,7 +1837,7 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   content: "";
 }
 .get-in-shape .get-in-shape-description span {
-  font-family: rajdhani-semibold;
+  
   letter-spacing: 3px;
   display: block;
   margin: 0px 0px 20px 0px;
@@ -1898,21 +1845,18 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   padding-left: 60px;
 }
 .get-in-shape .get-in-shape-description h1 {
-  font-family: brandon-bold;
   font-size: 72px;
   color: #000;
   letter-spacing: -2px;
   line-height: 65px;
 }
 .get-in-shape .get-in-shape-description p {
-  font-family: ubuntu-regular;
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   margin: 35px 0px 25px 0px;
   line-height: 40px;
 }
 .get-in-shape a.btn-stay-in-touch {
-  font-family: bebas-bold;
   font-size: 30px;
   line-height: 65px;
   letter-spacing: 1px;
@@ -1928,13 +1872,11 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   font-size: 48px;
 }
 .about-statistics h3 {
-  font-family: poppins-semibold;
   font-size: 26px;
   margin: 15px 0px 0px 0px;
   letter-spacing: 1px;
 }
 .about-statistics label {
-  font-family: "ubuntu-medium";
   font-size: 16px;
   opacity: 0.8;
   letter-spacing: 0px;
@@ -1955,7 +1897,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   writing-mode: sideways-lr;
   -webkit-writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-family: poppins-medium;
   font-size: 16px;
   letter-spacing: 1px;
   opacity: 0.65;
@@ -1971,7 +1912,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   background-color: transparent;
 }
 .video-tutorial-clip .tutorial-video-title {
-  font-family: bebas-bold;
   font-size: 50px;
   position: absolute;
   top: 30px;
@@ -1997,14 +1937,12 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   padding: 15px;
 }
 .video-tutorial-clip .tutorial-video-states h1 {
-  font-family: bebas-bold;
   font-size: 40px;
   padding: 0px;
   margin: 0px;
   line-height: 40px;
 }
 .video-tutorial-clip .tutorial-video-states label {
-  font-family: poppins-regular;
   font-size: 20px;
   position: relative;
 }
@@ -2181,7 +2119,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   flex-grow: 1;
 }
 .equipment-block .equipment-info h1 {
-  font-family: poppins-semibold;
   position: relative;
   display: inline-block;
 }
@@ -2199,13 +2136,11 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   display: block;
   margin-left: 85px;
   margin-top: -20px;
-  font-family: poppins-regular;
   opacity: 0.5;
   font-size: 16px;
   letter-spacing: 1px;
 }
 .equipment-block .equipment-info h4 {
-  font-family: poppins-semibold;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 1px;
@@ -2282,17 +2217,15 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   padding: 50px 75px;
 }
 .our-gallery .gallery-testimonial .gallery-testimonial-info h4 {
-  font-family: poppins-semibold;
   font-size: 30px;
   font-weight: normal;
 }
 .our-gallery .gallery-testimonial .gallery-testimonial-info span {
-  font-family: poppins-medium;
   font-size: 22px;
   opacity: 0.5;
 }
 .our-gallery .gallery-testimonial .gallery-testimonial-info p {
-  font-family: avenir-roman;
+  
   font-size: 18px;
   opacity: 0.4;
   margin: 25px 0px 0px 0px;
@@ -2332,17 +2265,14 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   left: 10%;
 }
 .gallery-shots .gallery-block .gallery-block-info span {
-  font-family: rajdhani-medium;
   font-size: 20px;
 }
 .gallery-shots .gallery-block .gallery-block-info h2 {
-  font-family: rajdhani-bold;
   font-size: 50px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 .gallery-shots .gallery-block .gallery-block-info p {
-  font-family: poppins-regular;
   font-size: 20px;
 }
 .gallery-shots a.btn-gallery-zoom {
@@ -2390,7 +2320,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   position: absolute;
   top: calc(50% - 40px);
   left: calc(50% - 15px);
-  font-family: poppins-bold;
   color: #fff;
   font-size: 60px;
 }
@@ -2421,7 +2350,6 @@ ul.weekly-days-nav li.week-day a.nav-link.active {
   flex-grow: 0;
 }
 ul.inspiration-step-timeline li h3 {
-  font-family: bebas-bold;
   text-align: center;
   letter-spacing: 3px;
   font-size: 34px;
@@ -2519,7 +2447,6 @@ ul.inspiration-step-timeline li p {
   flex-grow: 1;
 }
 .service-block .service-info h1 {
-  font-family: poppins-bold;
   position: relative;
   display: inline-block;
 }
@@ -2537,14 +2464,13 @@ ul.inspiration-step-timeline li p {
   display: block;
   margin-left: 85px;
   margin-top: -20px;
-  font-family: poppins-semibold;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 .service-block .service-info p {
-  font-family: avenir-roman;
+  
   opacity: 0.85;
   font-size: 16px;
   line-height: 26px;
@@ -2581,17 +2507,14 @@ ul.inspiration-step-timeline li p {
   padding-top: 15px;
 }
 .our-pricing-tbl .our-pricing-tbl-block .pricing-tbl-head h3 {
-  font-family: poppins-semibold;
   font-size: 36px;
   line-height: 40px;
 }
 .our-pricing-tbl .our-pricing-tbl-block .pricing-tbl-head p {
-  font-family: poppins-medium;
   font-size: 18px;
   opacity: 0.6;
 }
 .our-pricing-tbl .our-pricing-tbl-block h1.plan-price {
-  font-family: poppins-semibold;
   font-weight: normal;
   font-size: 52px;
   letter-spacing: -1px;
@@ -2599,7 +2522,7 @@ ul.inspiration-step-timeline li p {
   letter-spacing: -2px;
 }
 .our-pricing-tbl .our-pricing-tbl-block ul.plan-features li {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
   padding-bottom: 12px;
@@ -2761,7 +2684,6 @@ ul.inspiration-step-timeline li p {
   color: #000;
   position: absolute;
   z-index: 1;
-  font-family: ubuntu-bold;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -2811,7 +2733,6 @@ ul.inspiration-step-timeline li p {
   }
 }
 .tip-of-day-avatar .quote h1 {
-  font-family: poppins-semibold;
   font-size: 36px;
   line-height: 36px;
   margin-bottom: 45px;
@@ -2819,7 +2740,6 @@ ul.inspiration-step-timeline li p {
 }
 .tip-of-day-avatar .quote h1 span {
   display: block;
-  font-family: poppins-regular;
   font-size: 26px;
   line-height: 30px;
 }
@@ -2840,7 +2760,6 @@ ul.inspiration-step-timeline li p {
 .tip-of-day-info {
 }
 .tip-of-day-info h1 {
-  font-family: brandon-black;
   font-size: 72px;
   line-height: 62px;
   position: relative;
@@ -2855,7 +2774,7 @@ ul.inspiration-step-timeline li p {
   background-color: #ef0060;
 }
 .tip-of-day-info p {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   letter-spacing: 1px;
@@ -2888,18 +2807,16 @@ ul.inspiration-step-timeline li p {
   content: "";
 }
 .contact-redirection .contact-redirection-info h6 {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   position: relative;
   display: inline-block;
 }
 .contact-redirection .contact-redirection-info h3 {
-  font-family: avenir-medium;
   font-weight: bold;
   font-size: 34px;
 }
 .contact-redirection .contact-redirection-action .btn-get-started {
-  font-family: bebas-bold;
   font-size: 30px;
   letter-spacing: 1px;
 }
@@ -3023,13 +2940,11 @@ ul.inspiration-step-timeline li p {
   padding: 15px 25px;
 }
 .lead-trainer-block .lead-trainer-info h3 {
-  font-family: museosans-700;
   font-size: 26px;
   line-height: 40px;
   mix-blend-mode: normal;
 }
 .lead-trainer-block .lead-trainer-info p {
-  font-family: museosans-500;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.75);
   display: flex;
@@ -3102,19 +3017,16 @@ ul.inspiration-step-timeline li p {
   padding: 75px 0px;
 }
 .about-lead-trainer h3 {
-  font-family: poppins-medium;
   font-size: 26px;
   margin-bottom: 25px;
   margin-right: auto;
 }
 .about-lead-trainer h3 span {
-  font-family: avenir-book;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   display: block;
 }
 .about-lead-trainer p {
-  font-family: avenir-book;
   font-size: 16px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.5);
@@ -3124,12 +3036,10 @@ ul.inspiration-step-timeline li p {
   margin-top: 25px;
 }
 .about-lead-trainer table.lead-trainer-statistics h4 {
-  font-family: poppins-medium;
   font-size: 24px;
 }
 .about-lead-trainer table.lead-trainer-statistics h4 span {
   display: block;
-  font-family: avenir-book;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   line-height: 35px;
@@ -3140,12 +3050,10 @@ ul.inspiration-step-timeline li p {
   border-color: rgba(255, 255, 255, 0.35);
 }
 .about-lead-trainer table.lead-trainer-statistics tr td {
-  font-family: avenir-book;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
 }
 .about-lead-trainer table.lead-trainer-statistics h5 {
-  font-family: poppins-medium;
   font-size: 18px;
   margin: 0px;
   color: rgba(255, 255, 255, 1);
@@ -3277,7 +3185,6 @@ ul.inspiration-step-timeline li p {
 }
 .why-joining .why-join-block h3 {
   text-transform: uppercase;
-  font-family: poppins-bold;
   font-size: 26px;
   color: rgba(0, 0, 0, 0.65);
   margin: 50px 0px 20px 0px;
@@ -3289,13 +3196,12 @@ ul.inspiration-step-timeline li p {
   transition: all 0.3s;
 }
 .why-joining .why-join-block p {
-  font-family: avenir-roman;
+  
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
   margin: 0px 15px;
 }
 .video-tutorial-clip .tutorial-video-title {
-  font-family: bebas-bold;
   font-size: 50px;
   position: absolute;
   top: 30px;
@@ -3321,14 +3227,12 @@ ul.inspiration-step-timeline li p {
   padding: 15px;
 }
 .video-tutorial-clip .tutorial-video-states h1 {
-  font-family: bebas-bold;
   font-size: 40px;
   padding: 0px;
   margin: 0px;
   line-height: 40px;
 }
 .video-tutorial-clip .tutorial-video-states label {
-  font-family: poppins-regular;
   font-size: 20px;
   position: relative;
 }
@@ -3437,16 +3341,13 @@ ul.inspiration-step-timeline li p {
   display: block;
 }
 .price-packages h4 {
-  font-family: "ubuntu-medium";
   font-size: 24px;
 }
 .price-packages h4 span {
-  font-family: ubuntu-bold;
   color: #dd1667;
   font-size: 30px;
 }
 .price-packages h5 span {
-  font-family: ubuntu-bold;
   color: #dd1667;
   font-size: 25px;
 }
@@ -3495,7 +3396,6 @@ ul.inspiration-step-timeline li p {
   justify-content: flex-end;
 }
 .price-package-block h4 {
-  font-family: poppins-bold;
   font-size: 60px;
   color: #fff;
   margin-bottom: 30px;
@@ -3506,7 +3406,6 @@ ul.inspiration-step-timeline li p {
   align-self: flex-start;
 }
 .price-package-block h5 {
-  font-family: "poppins-regular";
   font-size: 40px;
   color: #fff;
   margin-bottom: 20px;
@@ -3523,7 +3422,6 @@ ul.inspiration-step-timeline li p {
   font-size: 40px;
 }
 .price-package-block p {
-  font-family: avenir-medium;
   color: #fff;
   font-size: 24px;
   letter-spacing: -1px;
@@ -3594,19 +3492,16 @@ ul.inspiration-step-timeline li p {
   transition: all 0.3s;
 }
 .basic-plans-tbl .basic-plan-block h3 {
-  font-family: poppins-semibold;
   font-size: 32px;
   letter-spacing: 1px;
   line-height: 40px;
 }
 .basic-plans-tbl .basic-plan-block h3 p {
-  font-family: rajdhani-medium;
   font-size: 22px;
   color: rgba(255, 255, 255, 0.75);
   letter-spacing: 2px;
 }
 .basic-plans-tbl .basic-plan-block h1 {
-  font-family: bebas-bold;
   font-size: 55px;
   color: #fff;
   padding: 30px 0px 15px 0px;
@@ -3614,7 +3509,7 @@ ul.inspiration-step-timeline li p {
   transition: all 0.3s;
 }
 .basic-plans-tbl .basic-plan-block ul.plan-features-list {
-  font-family: avenir-roman;
+  
   font-size: 18px;
   line-height: 50px;
   padding-bottom: 10px;
@@ -3683,12 +3578,11 @@ ul.inspiration-step-timeline li p {
 }
 .free-subscription-info h1 {
   margin: 0px 0px 40px 0px;
-  font-family: if;
   font-size: 105px;
   color: #ee0060;
 }
 .free-subscription-info p {
-  font-family: avenir-roman;
+  
   font-size: 30px;
   font-style: italic;
   line-height: 50px;
@@ -3758,11 +3652,9 @@ ul.inspiration-step-timeline li p {
   transition: all 0.3s;
 }
 .contact-info .contact-info-block h1 {
-  font-family: brandon-bold;
   font-size: 40px;
 }
 .contact-info .contact-info-block p {
-  font-family: "ubuntu-medium";
   font-size: 18px;
   color: rgba(0, 0, 0, 0.55);
 }
@@ -3811,13 +3703,9 @@ ul.inspiration-step-timeline li p {
   color: #fff;
 }
 .contact-form .head-note p {
-  font-family: museosans-300;
   font-size: 28px;
   width: 75%;
   letter-spacing: 1px;
-}
-.contact-form .head-note b {
-  font-family: museosans-500;
 }
 .contact-form .head-note i {
   font-size: 65px;
@@ -3830,7 +3718,7 @@ ul.inspiration-step-timeline li p {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   margin-bottom: 12px;
-  font-family: avenir-medium;
+  
 }
 .material-form a.btn-send-message {
   white-space: nowrap;
@@ -3846,7 +3734,6 @@ ul.inspiration-step-timeline li p {
   font-size: 20px;
 }
 .material-form .form-group p {
-  font-family: ubuntu-regular;
   font-size: 18px;
   opacity: 0.6;
 }
@@ -3892,7 +3779,6 @@ ul.inspiration-step-timeline li p {
 }
 .material-form input::-webkit-input-placeholder,
 .material-form textarea::-webkit-input-placeholder {
-  font-family: "roboto", sans-serif;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   font-size: 10px;
@@ -3989,11 +3875,10 @@ label.iagreeupdate {
   align-items: center;
 }
 .location-map .available-addresses .address-block h6 {
-  font-family: ubuntu-regular;
   font-size: 30px;
 }
 .location-map .available-addresses .address-block p {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 1px;
@@ -4058,14 +3943,12 @@ label.iagreeupdate {
   padding: 35px 15px 0px 0px;
 }
 .have-question .talk-expert .talk-expert-avatar .section-lbl span {
-  font-family: rajdhani-bold;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.75);
   letter-spacing: 2px;
 }
 .have-question .talk-expert .talk-expert-avatar .section-lbl h3 {
   color: #fff;
-  font-family: poppins-medium;
   font-size: 30px;
   letter-spacing: 2px;
 }
@@ -4086,7 +3969,6 @@ label.iagreeupdate {
   margin-bottom: 10px;
 }
 .have-question .talk-expert .talk-expert-info span {
-  font-family: "ubuntu-medium";
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
@@ -4098,7 +3980,7 @@ label.iagreeupdate {
   margin-bottom: 20px;
 }
 .have-question .talk-expert .talk-expert-info p {
-  font-family: avenir-roman;
+  
   font-size: 18px;
   line-height: 34px;
   color: rgba(255, 255, 255, 0.75);
@@ -4111,7 +3993,6 @@ label.iagreeupdate {
   margin-bottom: 20px !important;
 }
 .have-question .talk-expert .talk-expert-info a.btn-get-started {
-  font-family: bebas-bold;
   font-size: 28px;
   color: #fff;
   background-color: #ef0060;
@@ -4158,7 +4039,6 @@ label.iagreeupdate {
   transform: rotate(136deg);
 }
 .location-map .map-pin-popup .map-custom-popup h2 {
-  font-family: poppins-semibold;
   font-size: 24px;
   text-align: center;
   padding: 20px 0px;
@@ -4172,7 +4052,6 @@ label.iagreeupdate {
   color: rgba(0, 0, 0, 0.75);
   text-align: center;
   font-size: 18px;
-  font-family: avenir-medium;
   margin: 0px;
 }
 /* Blog Page */
@@ -4208,18 +4087,16 @@ label.iagreeupdate {
 .new-blog .new-blog-info label {
   display: inline-block;
   font-size: 30px;
-  font-family: brandon-medium;
   color: #fff;
   background-color: #ee0060;
   border-radius: 100px;
   padding: 7px 35px;
 }
 .new-blog .new-blog-info h1 {
-  font-family: brandon-bold;
   font-size: 48px;
 }
 .new-blog .new-blog-info ul {
-  font-family: avenir-roman;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4232,13 +4109,12 @@ label.iagreeupdate {
   opacity: 0.6;
 }
 .new-blog .new-blog-info p {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   line-height: 35px;
 }
 .new-blog .new-blog-info a.btn-read-more {
-  font-family: museosans-700;
   font-size: 20px;
   line-height: 40px;
 }
@@ -4288,19 +4164,16 @@ label.iagreeupdate {
   padding: 25px;
 }
 .new-blog-date .date-month h1 {
-  font-family: brandon-bold;
   font-size: 50px;
   line-height: 50px;
   margin: 0px;
 }
 .new-blog-date .date-month h2 {
-  font-family: "brandon-regular";
   font-size: 35px;
   line-height: 35px;
   margin: 0px;
 }
 .new-blog-date .date-month span {
-  font-family: avenir-medium;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -4309,7 +4182,6 @@ label.iagreeupdate {
   -webkit-writing-mode: vertical-rl;
   width: 50px;
   text-align: center;
-  font-family: avenir-medium;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.75);
   background-color: #000;
@@ -4325,7 +4197,6 @@ label.iagreeupdate {
 }
 .new-blog-nav a {
   min-width: 160px;
-  font-family: "ubuntu-medium";
   font-size: 22px;
   background-color: #f3f3f3;
   padding: 20px 25px;
@@ -4373,7 +4244,6 @@ label.iagreeupdate {
   position: relative;
 }
 .popular-post-block .post-date h1 {
-  font-family: brandon-bold;
   font-size: 50px;
   margin: 0px;
   color: #fff;
@@ -4381,20 +4251,18 @@ label.iagreeupdate {
   line-height: 40px;
 }
 .popular-post-block .post-date span {
-  font-family: avenir-medium;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.75);
   letter-spacing: 2px;
 }
 .popular-post-block h2 {
-  font-family: brandon-bold;
   font-size: 42px;
   text-align: left;
   letter-spacing: -1px;
   margin: 20px 0px;
 }
 .popular-post-block ul {
-  font-family: avenir-roman;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4448,7 +4316,6 @@ ul.carousel-squre-nav li a:hover svg {
   min-height: 350px;
 }
 .newslatter-gfx h2 {
-  font-family: museosans-700;
   color: #fff;
   font-size: 36px;
 }
@@ -4472,7 +4339,6 @@ ul.carousel-squre-nav li a:hover svg {
   height: 70px;
   color: #fff;
   font-size: 20px;
-  font-family: ubuntu-regular;
   box-shadow: unset;
   -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
   transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
@@ -4581,7 +4447,6 @@ a.recent-post-block {
   position: relative;
 }
 .recent-post-block .post-date h1 {
-  font-family: brandon-bold;
   font-size: 36px;
   margin: 0px;
   color: #fff;
@@ -4589,20 +4454,18 @@ a.recent-post-block {
   line-height: 30px;
 }
 .recent-post-block .post-date span {
-  font-family: avenir-medium;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.75);
   letter-spacing: 2px;
 }
 .recent-post-block h2 {
-  font-family: brandon-bold;
   font-size: 29px;
   text-align: left;
   letter-spacing: -1px;
   margin: 20px 0px;
 }
 .recent-post-block ul {
-  font-family: avenir-roman;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4673,13 +4536,11 @@ a.recent-post-block {
   background-color: #2b3039;
 }
 .blog-date .date-month h1 {
-  font-family: brandon-bold;
   font-size: 50px;
   line-height: 50px;
   margin: 0px;
 }
 .blog-date .date-month span {
-  font-family: avenir-medium;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -4688,7 +4549,6 @@ a.recent-post-block {
   -webkit-writing-mode: vertical-rl;
   width: 50px;
   text-align: center;
-  font-family: avenir-medium;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.75);
   background-color: #000;
@@ -4701,7 +4561,6 @@ a.recent-post-block {
   padding: 25px 35px;
 }
 .effective-post-block-info h4 {
-  font-family: brandon-bold;
   font-size: 30px;
   white-space: nowrap;
   overflow: hidden;
@@ -4709,19 +4568,18 @@ a.recent-post-block {
 }
 .effective-post-block-info .writer-like a {
   font-size: 20px;
-  font-family: avenir-roman;
+  
   color: rgba(0, 0, 0, 0.5);
   display: block;
   line-height: 40px;
 }
 .effective-post-block-info p {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   color: rgba(0, 0, 0, 0.45);
   line-height: 36px;
 }
 .effective-post-block-info a {
-  font-family: museosans-700;
   font-size: 22px;
   line-height: 40px;
 }
@@ -4737,7 +4595,6 @@ a.recent-post-block {
   background: -moz-linear-gradient(to right, #f3f3f3 0%, #fff 100%);
   background: -webkit-linear-gradient(to right, #f3f3f3 0%, #fff 100%);
   background: -o-linear-gradient(to right, #f3f3f3 0%, #fff 100%);
-  font-family: brandon-bold;
   font-size: 30px;
 }
 a.tranding-post-block {
@@ -4768,16 +4625,12 @@ a.tranding-post-block:last-child {
   width: calc(100% - 143px);
   padding-left: 12px;
 }
-.tranding-post-block .tranding-post-block-info h3 {
-  font-family: brandon-bold;
-}
 .tranding-post-block .writer-like p {
   line-height: 28px;
   display: block;
   margin: 0px;
 }
 .tranding-post-block .writer-like p span {
-  font-family: avenir-book;
   font-size: 16px;
   opacity: 0.65;
 }
@@ -4814,7 +4667,7 @@ a.tranding-post-block:last-child {
   writing-mode: sideways-lr;
   -webkit-writing-mode: vertical-rl;
   line-height: 55px;
-  font-family: avenir-roman;
+  
   color: rgba(18, 18, 18, 0.75);
   font-size: 20px;
 }
@@ -4853,7 +4706,6 @@ a.tranding-post-block:last-child {
   margin-top: -45px;
 }
 .blog-detailed-content h1.blog-title {
-  font-family: georgia-bold;
   font-size: 42px;
   color: #000;
   line-height: 60px;
@@ -4867,12 +4719,11 @@ a.tranding-post-block:last-child {
 }
 .blog-detailed-content ul.blog-statistics li {
   padding-right: 35px;
-  font-family: avenir-roman;
+  
   color: #6a6a6a;
   font-size: 20px;
 }
 .blog-detailed-content ul.blog-statistics li b {
-  font-family: avenir-medium;
   font-weight: normal;
   color: #4a4a4a;
 }
@@ -4901,13 +4752,11 @@ a.tranding-post-block:last-child {
   padding: 25px;
 }
 .blog-detailed-content .blog-date-holder .date-month h1 {
-  font-family: brandon-bold;
   font-size: 50px;
   line-height: 50px;
   margin: 0px;
 }
 .blog-detailed-content .blog-date-holder .date-month span {
-  font-family: avenir-medium;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -4916,7 +4765,6 @@ a.tranding-post-block:last-child {
   -webkit-writing-mode: vertical-rl;
   width: 50px;
   text-align: center;
-  font-family: avenir-medium;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.75);
   background-color: #ef0060;
@@ -4942,7 +4790,6 @@ a.tranding-post-block:last-child {
   left: 25px;
 }
 .blog-detailed-content .blog-category a {
-  font-family: bebas-bold;
   font-size: 30px;
   color: #fff;
   background-color: #ef0060;
@@ -4952,7 +4799,7 @@ a.tranding-post-block:last-child {
   letter-spacing: 1px;
 }
 p.text-desc {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   color: rgba(0, 0, 0, 0.45);
   letter-spacing: 1px;
@@ -4960,7 +4807,7 @@ p.text-desc {
   padding: 15px 0px;
 }
 .blog-detailed-content p.highlighted-text {
-  font-family: avenir-roman;
+  
   font-size: 20px;
   font-style: italic;
   background-color: #f7f7f7;
@@ -4973,7 +4820,6 @@ p.text-desc {
   font-size: 120px;
   float: left;
   margin-top: 7px;
-  font-family: georgia-bold;
   margin-right: 25px;
   color: rgba(0, 0, 0, 1);
 }
@@ -4995,7 +4841,6 @@ p.text-desc {
   right: -18px;
 }
 .blog-detailed-content .blog-inner-banner-title {
-  font-family: avenir-medium;
   color: rgba(0, 0, 0, 0.35);
   font-size: 16px;
   text-align: center;
@@ -5011,7 +4856,7 @@ p.text-desc {
   -moz-column-count: 2;
   -moz-column-gap: 60px;
   text-align: justify;
-  font-family: avenir-roman;
+  
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
   line-height: 34px;
@@ -5025,14 +4870,13 @@ p.text-desc {
   column-count: 2;
   column-gap: 60px;
   text-align: justify;
-  font-family: avenir-roman;
+  
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
   line-height: 34px;
   padding-top: 10px;
 }
 .blog-detailed-content .story-newspaper h2 {
-  font-family: georgia-bold;
   color: rgba(0, 0, 0, 1);
   font-size: 40px;
   margin-bottom: 20px;
@@ -5095,7 +4939,6 @@ p.text-desc {
   line-height: 36px;
 }
 .blog-detailed-content blockquote p {
-  font-family: avenir-medium;
   color: #656565;
   font-size: 20px;
   letter-spacing: 1px;
@@ -5103,7 +4946,7 @@ p.text-desc {
   line-height: 36px;
 }
 .blog-detailed-content blockquote span {
-  font-family: avenir-roman;
+  
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4);
 }
@@ -5115,7 +4958,6 @@ p.text-desc {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: avenir-medium;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -5184,7 +5026,6 @@ p.text-desc {
   display: flex;
 }
 .blogger-info .about-blogger .blogger-name-social h5 {
-  font-family: avenir-medium;
   font-size: 22px;
 }
 .blogger-info .about-blogger .blogger-name-social ul {
@@ -5203,7 +5044,6 @@ p.text-desc {
   display: block;
 }
 .blogger-info .about-blogger p {
-  font-family: avenir-book;
   font-size: 18px;
   color: #7f7f7f;
 }
@@ -5212,7 +5052,6 @@ p.text-desc {
   flex-direction: column;
 }
 .blog-detailed-content .blog-nevigation a {
-  font-family: avenir-medium;
   display: flex;
   align-items: center;
   color: rgba(0, 0, 0, 0.5);
@@ -5237,7 +5076,6 @@ p.text-desc {
   -webkit-text-stroke-color: #ee0060;
 }
 .blog-detailed-content .blog-nevigation p {
-  font-family: museosans-500;
   font-size: 22px;
   opacity: 0.65;
   margin: 8px 0px;
@@ -5248,11 +5086,8 @@ p.text-desc {
   border-bottom: 1px solid #cdcdcd;
   padding-bottom: 15px;
 }
-.blog-detailed-content .blog-detail-subheading h3 {
-  font-family: brandon-bold;
-}
 .blog-detailed-content .blog-detail-subheading p {
-  font-family: avenir-roman;
+  
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
   margin: 5px 0px 0px 0px;
@@ -5302,20 +5137,16 @@ p.text-desc {
   justify-content: space-between;
 }
 .comment-block .comment-content .user-name-reply h5 {
-  font-family: avenir-medium;
   font-size: 22px;
 }
 .comment-block .comment-content .user-name-reply a {
   color: #ef0060;
-  font-family: poppins-regular;
 }
 .comment-block .comment-content span.date {
-  font-family: georgia-italic;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.65);
 }
 .comment-block .comment-content p {
-  font-family: avenir-book;
   font-size: 16px;
   color: #7f7f7f;
   margin-top: 15px;
@@ -5326,7 +5157,6 @@ p.text-desc {
   display: none;
 }
 .blog-detailed-content form.comment-reply label {
-  font-family: avenir-medium;
   font-size: 14px;
   opacity: 0.75;
 }
@@ -5340,7 +5170,6 @@ p.text-desc {
   width: 100%;
 }
 form.comment-reply .btn-post-comment {
-  font-family: avenir-medium;
   font-size: 20px;
   line-height: 65px;
 }
@@ -5349,7 +5178,6 @@ form.comment-reply .btn-post-comment {
 }
 .instagram-gallery h4.title {
   font-size: 16px;
-  font-family: poppins-regular;
   padding: 10px 0px;
 }
 .instagram-gallery .insta-gallery-clicks {
@@ -5371,12 +5199,10 @@ form.comment-reply .btn-post-comment {
 .instagram-gallery .insta-gallery-clicks .insta-click:nth-child(1) a {
   color: #fff;
   font-size: 18px;
-  font-family: poppins-regular;
   display: block;
   line-height: 24px;
 }
 .instagram-gallery .insta-gallery-clicks .insta-click:nth-child(1) a span {
-  font-family: bebas-bold;
   display: block;
   font-size: 22px;
   letter-spacing: 2px;
@@ -5392,7 +5218,6 @@ form.comment-reply .btn-post-comment {
   background-size: auto 100%;
 }
 .footer h3 {
-  font-family: brandon-medium;
   font-size: 30px;
   position: relative;
   padding-bottom: 25px;
@@ -5405,7 +5230,6 @@ form.comment-reply .btn-post-comment {
   left: 0px;
 }
 .footer ul li a {
-  font-family: brandon-regular;
   color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
   line-height: 30px;
@@ -5413,24 +5237,20 @@ form.comment-reply .btn-post-comment {
   display: block;
 }
 .footer ul li a:hover {
-  font-family: brandon-regular;
   color: rgba(255, 255, 255, 1);
   font-size: 20px;
 }
 .footer-quick-contact h4 {
   font-size: 30px;
-  font-family: brandon-medium;
 }
 .footer-quick-contact h1 {
   font-size: 40px;
-  font-family: brandon-medium;
   padding: 10px 0px 5px 0px;
 }
 .footer-quick-contact h1 a {
   color: #ef0060;
 }
 .footer-quick-contact p {
-  font-family: brandon-regular;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -5529,7 +5349,6 @@ form.comment-reply .btn-post-comment {
 .bottom-footer-in .copyright-declaration {
   height: 72px;
   border-left: 2px solid #fff;
-  font-family: poppins-regular;
   font-size: 24px;
   line-height: 72px;
   padding: 0px 50px;
@@ -5620,7 +5439,6 @@ form.comment-reply .btn-post-comment {
 }
 /*================== // LOADER CSS //=================*/
 .BMI-calc-value {
-  font-family: bebas-bold;
   font-size: 40px;
   font-weight: bold;
   height: 100%;

@@ -46,13 +46,13 @@ layout: base
         <div class="col-6">
           <div class="follow-link-1">
             <h4 class="text-uppercase">FOLLOW ME</h4>
-            <a class="text-uppercase" href="https://www.instagram.com/fitmannyuk/">@FITMANNYUK</a>
+            <a class="text-uppercase" href="https://www.instagram.com/greekkgod04/">@greekkgod04</a>
           </div>
         </div>
         <div class="col-6">
           <div class="follow-link-2">
             <h4 class="text-uppercase">FITMANNY IN THE SPOTLIGHT</h4>
-            <a class="text-uppercase" href="https://www.instagram.com/explore/tags/fitmannyuk/">#FITMANNYUK</a>
+            <a class="text-uppercase" href="https://www.instagram.com/explore/tags/greekkgod04/">#greekkgod04</a>
           </div>
         </div>
         <div class="col col-12">

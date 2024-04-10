@@ -635,7 +635,6 @@
   }
   .bmi-calculator .bmi-chart .bmi-chart-row {
     font-size: 16px;
-    font-family: ubuntu-medium;
   }
   /*follow us section*/
   .pramotion-title h1 {
@@ -1082,8 +1081,7 @@
   }
   .bmi-calculator .bmi-chart .bmi-chart-row {
     font-size: 22px;
-    font-family: ubuntu-regular;
-  }
+    }
   /*follow us section*/
   .follow-us .follow-link-1,
   .follow-us .follow-link-2 {
@@ -1820,7 +1818,6 @@
     font-size: 58px;
   }
   .get-in-shape .get-in-shape-description p {
-    font-family: ubuntu-medium;
     font-size: 18px;
     line-height: 32px;
   }
@@ -1900,7 +1897,7 @@
     margin: 50px 0px 50px 0px;
   }
   .contact-redirection .contact-redirection-info h6 {
-    font-family: avenir-roman;
+    
     font-size: 20px;
     position: relative;
     display: block;
